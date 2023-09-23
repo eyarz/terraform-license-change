@@ -1,0 +1,184 @@
+date,url,user,title,hasicorp
+2023-09-10T05:44:59Z,https://github.com/hashicorp/terraform/issues/33859,wilber82,Support double hop in the provisioner connection settings for winrm,N
+2023-09-09T22:44:14Z,https://github.com/hashicorp/terraform/issues/33858,andrewesweet,terraform test test-case-order-dependent panic,N
+2023-09-09T22:16:08Z,https://github.com/hashicorp/terraform/issues/33857,andrewesweet,terraform test expect_failures does not capture output precondition failure on apply,N
+2023-09-08T10:19:12Z,https://github.com/hashicorp/terraform/issues/33847,maggie44,Support Cloudflare r2 for storing Terraform state,N
+2023-09-08T04:04:53Z,https://github.com/hashicorp/terraform/issues/33845,henrynn,Rendering template with '@' not functioning,N
+2023-09-07T17:17:39Z,https://github.com/hashicorp/terraform/issues/33838,gdavison,backend/s3: Add support for specifying an external credentials process directly,Y
+2023-09-07T15:39:50Z,https://github.com/hashicorp/terraform/issues/33837,markusheiden,terraform providers lock should use the plugin cache,N
+2023-09-07T09:43:01Z,https://github.com/hashicorp/terraform/issues/33829,ser789654,Make Terraform local provisioner wait till the docker image with spring boot application is started,N
+2023-09-07T00:09:50Z,https://github.com/hashicorp/terraform/issues/33828,Justin-DynamicD,Optional Object Types broken.,N
+2023-09-06T23:28:36Z,https://github.com/hashicorp/terraform/issues/33827,aviksamanta1986,Terraform Error: Error: Failed to load plugin schemas while running Terraform for azure,N
+2023-09-06T20:05:51Z,https://github.com/hashicorp/terraform/issues/33826,delikvent,AzureRM backend OIDC authentication hangs during terraform init stage within Github workflow,N
+2023-09-06T15:25:33Z,https://github.com/hashicorp/terraform/issues/33817,berniedurfee-renaissance,No docs for force_delete_warm_pool,N
+2023-09-06T12:28:08Z,https://github.com/hashicorp/terraform/issues/33811,diegotony,[BUG]:  runtime error invalid memory address or nil pointer dereference,N
+2023-09-06T12:06:37Z,https://github.com/hashicorp/terraform/issues/33810,yogesh2580,[BUG]: switch from secret rotation automatically_after to schedule_expression fails with error InvalidParameterException: You cannot specify both rotation frequency and schedule expression together.,N
+2023-09-06T01:08:04Z,https://github.com/hashicorp/terraform/issues/33808,Vegas588,Discrepancy in Provider Schema Json and User Documentation,N
+2023-09-05T20:53:40Z,https://github.com/hashicorp/terraform/issues/33806,lorengordon,"With the `test` command, how to handle ""known after apply""?",N
+2023-09-05T17:51:26Z,https://github.com/hashicorp/terraform/issues/33803,jar-b,backend/s3: `assume_role_with_web_identity` ignores related environment variables,Y
+2023-09-05T17:49:27Z,https://github.com/hashicorp/terraform/issues/33802,Storm-BE,Data source in submodule referring to resource to be created in parent module fails to plan,N
+2023-09-05T12:31:36Z,https://github.com/hashicorp/terraform/issues/33799,paololazzari,A function for selecting one of a set of options (or a default) based on another value or on arbitrary predicates,N
+2023-09-05T09:27:02Z,https://github.com/hashicorp/terraform/issues/33798,devjiwonchoi,"Open up GitHub Discussions, extending the discuss.hashicorp.com",N
+2023-09-05T08:56:48Z,https://github.com/hashicorp/terraform/issues/33797,kfirgollan,"Export entire documentation as a single file, for easily including in a language model training set",N
+2023-09-04T16:30:54Z,https://github.com/hashicorp/terraform/issues/33796,TheCloudlessSky,Terraform breaks other programs within the same console on Windows,N
+2023-09-04T14:49:22Z,https://github.com/hashicorp/terraform/issues/33795,freebased,The repository 'https://apt.releases.hashicorp.com victoria Release' does not have a Release file.,N
+2023-09-04T13:41:23Z,https://github.com/hashicorp/terraform/issues/33794,VolumezTech,Azure VM creation with enable_accelerated_networking on Standard_L8s_v3 - inconsistent OverconstrainedAllocationRequest error,N
+2023-09-04T10:56:14Z,https://github.com/hashicorp/terraform/issues/33793,MOZGIII,Allow capturing and passing module source as a variable,N
+2023-09-03T00:45:28Z,https://github.com/hashicorp/terraform/issues/33791,dss010101,changing plugin_cache_dir on windows does not stop terraform from downloading providers in the init folder,N
+2023-09-02T12:50:57Z,https://github.com/hashicorp/terraform/issues/33790,jaredfholgate,Only initialize a provider if there are resources in the graph / state,N
+2023-09-01T20:20:17Z,https://github.com/hashicorp/terraform/issues/33788,radditude,don't attempt to operate on configuration that may be invalid during `init`,Y
+2023-09-01T19:20:16Z,https://github.com/hashicorp/terraform/issues/33787,joaocc,runtime error: invalid memory address or nil pointer dereference,N
+2023-09-01T19:13:59Z,https://github.com/hashicorp/terraform/issues/33786,lorengordon,"With the `test` command, what happens to state when the destroy action fails?",N
+2023-09-01T17:56:06Z,https://github.com/hashicorp/terraform/issues/33785,krlinus,S3 backend configuration page can be more clear,N
+2023-09-01T15:57:28Z,https://github.com/hashicorp/terraform/issues/33784,DustinMoriarty,Provider Aliases Error Handling Creates Misleading Errors,N
+2023-09-01T14:18:37Z,https://github.com/hashicorp/terraform/issues/33782,kenk667,Latest version of terraform isn't available in APT repository,N
+2023-09-01T12:26:00Z,https://github.com/hashicorp/terraform/issues/33780,matt-FFFFFF,`terraform test` crash on multiple run blocks in file,N
+2023-08-31T23:49:25Z,https://github.com/hashicorp/terraform/issues/33779,apparentlymart,CLI plan: Use individual-element diffs when diffing two lists of the same length,N
+2023-08-30T22:40:02Z,https://github.com/hashicorp/terraform/issues/33773,msingh0101,Failed to install provider: operation not permitted - when running terraform init from within a docker container,N
+2023-08-30T21:46:52Z,https://github.com/hashicorp/terraform/issues/33772,cschar,Custom Search Engine support in chrome or other modern browser,N
+2023-08-30T19:33:19Z,https://github.com/hashicorp/terraform/issues/33770,evan-cleary,"State files from projects using TF >=1.5 and the `check` block cannot be loaded as remote state by TF >=1.3, <1.5 ",N
+2023-08-29T21:36:01Z,https://github.com/hashicorp/terraform/issues/33767,nall1,Error: Provider produced inconsistent result after apply,N
+2023-08-29T21:13:37Z,https://github.com/hashicorp/terraform/issues/33766,kenk667,GCPCKMS auto unseal via helm_release doesn't work as intended,N
+2023-08-29T15:32:52Z,https://github.com/hashicorp/terraform/issues/33763,ajklotz,Why does the Changelog.txt show 1.5.6 as unreleased but shown as the stable released version in other places?,N
+2023-08-29T09:20:42Z,https://github.com/hashicorp/terraform/issues/33762,pierretux,azurerm_virtual_machine_extension resource exit,N
+2023-08-28T19:17:16Z,https://github.com/hashicorp/terraform/issues/33761,xyfleet,Force TLS1.2 to build the connection between terraform and AWS s3 bucket,N
+2023-08-27T10:10:12Z,https://github.com/hashicorp/terraform/issues/33759,yaroslavopsguru,The terraform-provider-google-beta_v4.79.0_x5 plugin crashed! ,N
+2023-08-25T16:26:49Z,https://github.com/hashicorp/terraform/issues/33757,weakcamel,Terraform crashes on an invalid object definition (duplicate attribute),N
+2023-08-25T14:38:17Z,https://github.com/hashicorp/terraform/issues/33756,neilmca-inc,Terraform PLAN output options for JUNIT format,N
+2023-08-25T09:26:01Z,https://github.com/hashicorp/terraform/issues/33754,ragnardevops,Terraform Crash!!!,N
+2023-08-25T09:24:24Z,https://github.com/hashicorp/terraform/issues/33753,Archangelix,Terraform init does not recognise ~ symbol.,N
+2023-08-25T07:58:50Z,https://github.com/hashicorp/terraform/issues/33752,rsangepucbre,Create aws alb with single listener and multiple rules,N
+2023-08-25T07:44:24Z,https://github.com/hashicorp/terraform/issues/33751,ascopes,Named resource groups/namespaces,N
+2023-08-25T07:30:42Z,https://github.com/hashicorp/terraform/issues/33750,ascopes,Shorthand for optional resources ,N
+2023-08-24T10:08:10Z,https://github.com/hashicorp/terraform/issues/33733,fabio-s-franco,Invalid for_each argument (is empty set of string),N
+2023-08-24T09:59:37Z,https://github.com/hashicorp/terraform/issues/33732,zculek-fb,Change the way of how destroy on deletion_protection enabled resources works,N
+2023-08-23T18:31:28Z,https://github.com/hashicorp/terraform/issues/33728,selvaganesh-gopal,azurerm_cosmosdb_postgresql_cluster - polling after Create: unmarshalling response body,N
+2023-08-23T14:23:28Z,https://github.com/hashicorp/terraform/issues/33727,medusaalb,module import using variables,N
+2023-08-23T14:09:34Z,https://github.com/hashicorp/terraform/issues/33726,aaronmell,a way to initialize modules and providers while ignoring stored backend configuration,N
+2023-08-23T11:10:14Z,https://github.com/hashicorp/terraform/issues/33725,megha288,not able to unlock terraform state file ,N
+2023-08-22T07:18:09Z,https://github.com/hashicorp/terraform/issues/33719,AdamCoulterOz,Make cli options 'json' and 'no-color' global options,N
+2023-08-21T21:47:01Z,https://github.com/hashicorp/terraform/issues/33717,sidekick-eimantas,Alternative to jsonencode without escaping,N
+2023-08-21T16:27:14Z,https://github.com/hashicorp/terraform/issues/33712,kmezynski,Set custom location of '${HOME}/.terraform.d' directory for either Checkpoint client or Terraform CLI,N
+2023-08-21T16:21:34Z,https://github.com/hashicorp/terraform/issues/33711,GLStephen,Terraform Should Warn if Init Will Modify a Remote Module,N
+2023-08-21T10:58:54Z,https://github.com/hashicorp/terraform/issues/33709,ankushpadmawar,Feature to change default local route which comes with Route Table.,N
+2023-08-21T10:39:36Z,https://github.com/hashicorp/terraform/issues/33708,moontune,Replace function cannot do single backslash,N
+2023-08-21T09:16:32Z,https://github.com/hashicorp/terraform/issues/33707,teowa,new added computed field inside nested block cannot be referred during Update,N
+2023-08-19T01:26:52Z,https://github.com/hashicorp/terraform/issues/33706,krlinus,I wish for more examples of jsonencode,N
+2023-08-17T06:59:33Z,https://github.com/hashicorp/terraform/issues/33703,toficzak,Installation guide for Ubuntu does not work with Linux Mint - Err:13 https://apt.releases.hashicorp.com 404,N
+2023-08-16T23:28:56Z,https://github.com/hashicorp/terraform/issues/33700,smokedlinq,Destroy resource in module destroys the module,N
+2023-08-16T12:13:44Z,https://github.com/hashicorp/terraform/issues/33698,sahilsk,Restrict terraform plugins(providers/modules) from downloading modules from unverified sources,N
+2023-08-16T07:34:23Z,https://github.com/hashicorp/terraform/issues/33694,ascopes,"Allow for ""reversible"" refactoring operations",N
+2023-08-15T21:43:09Z,https://github.com/hashicorp/terraform/issues/33693,gdavison,backend/s3: Add parameter `sts_region`,Y
+2023-08-15T21:40:09Z,https://github.com/hashicorp/terraform/issues/33692,gdavison,backend/s3: Supports retry mode,Y
+2023-08-15T21:38:03Z,https://github.com/hashicorp/terraform/issues/33690,gdavison,backend/s3: Support overriding EC2 Metadata endpoint,Y
+2023-08-15T21:04:36Z,https://github.com/hashicorp/terraform/issues/33689,gdavison,backend/s3: Add parameter `custom_ca_bundle`,Y
+2023-08-15T20:56:00Z,https://github.com/hashicorp/terraform/issues/33688,gdavison,backend/s3: Add `allowed_account_ids` and `forbidden_account_ids` parameters,Y
+2023-08-15T20:46:35Z,https://github.com/hashicorp/terraform/issues/33687,gdavison,backend/s3: Modernization tracking issue,Y
+2023-08-15T20:43:52Z,https://github.com/hashicorp/terraform/issues/33686,gdavison,backend/s3: Allow specifying S3 Object using ARN,Y
+2023-08-15T20:22:15Z,https://github.com/hashicorp/terraform/issues/33685,sknight-edgio,BSL/BUSL License,N
+2023-08-15T05:26:47Z,https://github.com/hashicorp/terraform/issues/33682,diegosogari,Modules with no outputs have no exported `for_each` keys,N
+2023-08-14T20:39:56Z,https://github.com/hashicorp/terraform/issues/33681,grimm26,terraform tries to destroy resource before removing it from a resource that depends on it,N
+2023-08-14T10:37:56Z,https://github.com/hashicorp/terraform/issues/33680,vladimirtiukhtin,expand language around the use of `null` in various assignments,N
+2023-08-14T09:54:04Z,https://github.com/hashicorp/terraform/issues/33676,liamcervante,`terraform test` crashes when referencing sensitive values in a condition,Y
+2023-08-12T14:44:08Z,https://github.com/hashicorp/terraform/issues/33671,KenSpur,"Give better feedback when two ""moved"" blocks target the same resource instance address",N
+2023-08-11T17:26:52Z,https://github.com/hashicorp/terraform/issues/33669,gdavison,backend/s3: Use `s3/manager` Uploader and Downloader for state file transfer,Y
+2023-08-11T13:59:04Z,https://github.com/hashicorp/terraform/issues/33667,chayleaf,Repo description and some doc pages still say Terraform is open-source,N
+2023-08-11T13:46:02Z,https://github.com/hashicorp/terraform/issues/33666,mateuszgalar,The 'cloudinit_config' is recreated when there are changes to unrelated resource arguments.,N
+2023-08-11T05:29:55Z,https://github.com/hashicorp/terraform/issues/33664,sohanyadav,length  getting wrong count in,N
+2023-08-11T04:28:08Z,https://github.com/hashicorp/terraform/issues/33663,JamesJJ,README still says MPL,N
+2023-08-10T14:52:05Z,https://github.com/hashicorp/terraform/issues/33660,NYRangers30,Support Provider Differences in Modules,N
+2023-08-10T13:40:39Z,https://github.com/hashicorp/terraform/issues/33659,kbcz1989,Failing to evaluate module outputs during destroy,N
+2023-08-10T11:54:50Z,https://github.com/hashicorp/terraform/issues/33658,DKGreg,DevOps azuredevops_variable_group behaviour for version 1.4 onwards,N
+2023-08-10T07:55:54Z,https://github.com/hashicorp/terraform/issues/33657,msartor92,Modules in Package Sub-directories space optimization,N
+2023-08-10T03:02:30Z,https://github.com/hashicorp/terraform/issues/33655,seanturner026,New Function keylistmap(),N
+,,,,
+2023-08-09T10:07:40Z,https://github.com/hashicorp/terraform/issues/33651,istairbn,Azurerm backend: set lease duration,N
+2023-08-08T22:41:54Z,https://github.com/hashicorp/terraform/issues/33654,garysassano,[Enhancement]: allow generating splitted iam role inline policy when importing an `aws_iam_role` using an `import` block,N
+2023-08-08T17:38:21Z,https://github.com/hashicorp/terraform/issues/33649,tenstriker,GCP connector - Allow force_destroy on resources in apply stage,N
+2023-08-08T01:33:42Z,https://github.com/hashicorp/terraform/issues/33644,joonhwa,AWS SSO new profile bug,N
+2023-08-07T12:16:47Z,https://github.com/hashicorp/terraform/issues/33642,eshulman2,Allow excluding resources when using a destroy command,N
+2023-08-07T10:39:38Z,https://github.com/hashicorp/terraform/issues/33641,gsped-guarnaccia,terraform does not load any *.auto.tfvars in current directory,N
+2023-08-07T08:13:26Z,https://github.com/hashicorp/terraform/issues/33640,akumar-99,Destroy infrastructure ignoring specific resources,N
+2023-08-07T08:06:43Z,https://github.com/hashicorp/terraform/issues/33639,mejuhi,Ability to pass terraform variable in backend prefix,N
+2023-08-06T17:10:02Z,https://github.com/hashicorp/terraform/issues/33638,keivinonline,Setup and Implement Read tutorial - Wrong filename reference in code block,N
+2023-08-05T21:57:05Z,https://github.com/hashicorp/terraform/issues/33637,cshea15,Provider produced inconsistent result after apply,N
+2023-08-05T07:02:56Z,https://github.com/hashicorp/terraform/issues/33636,baynezy,`TF_WORKSPACE` environment variable seems partially ignored,N
+2023-08-04T09:49:16Z,https://github.com/hashicorp/terraform/issues/33633,DJAlPee,"Plannable Import: Don't fail, but create resource, if not exist",N
+2023-08-04T07:23:03Z,https://github.com/hashicorp/terraform/issues/33632,sankara911,Validation condition of a variable based on another variable,N
+2023-08-03T06:49:20Z,https://github.com/hashicorp/terraform/issues/33627,borisyanev88,"""Build Infrastructure - Terraform Azure Example"" typo and resource name change",N
+2023-08-02T20:49:48Z,https://github.com/hashicorp/terraform/issues/33626,drewmullen,`terraform test` expects variables from repo root when `module` reference is specified,N
+2023-08-02T19:08:24Z,https://github.com/hashicorp/terraform/issues/33624,slushysnowman,Plannable Import: Support for_each,N
+2023-08-02T10:58:34Z,https://github.com/hashicorp/terraform/issues/33622,voltagex,Unset variable in backend.tf causes crash,N
+2023-08-01T18:18:43Z,https://github.com/hashicorp/terraform/issues/33620,gui-don,"Have a is_known_after_apply-like function to circumvent cannot apply ""known after apply"" issue",N
+2023-08-01T17:48:53Z,https://github.com/hashicorp/terraform/issues/33619,scardena,Generate a list of least permissions required to provision a stack in a cloud,N
+2023-08-01T12:25:00Z,https://github.com/hashicorp/terraform/issues/33617,ravinitp, Issue: Failure to detect changes in optional/computed field in any resource,N
+2023-07-31T23:08:37Z,https://github.com/hashicorp/terraform/issues/33615,hoangnguyen92,Cannot network mirroring github.com,N
+2023-07-31T16:58:06Z,https://github.com/hashicorp/terraform/issues/33613,joe-a-t,Moved block is not mentioned on documentation page about moving resources,N
+2023-07-31T14:33:41Z,https://github.com/hashicorp/terraform/issues/33612,tobydoescode,Values for variables without defaults not being passed at destroy time with terraform test - only apply time,N
+2023-07-31T10:23:30Z,https://github.com/hashicorp/terraform/issues/33610,DanielTeraSky,Don't validate lifecycle precondition on change,N
+2023-07-31T10:22:46Z,https://github.com/hashicorp/terraform/issues/33609,FransUrbo,for_each dynamic statement check isn't working,N
+2023-07-31T07:00:19Z,https://github.com/hashicorp/terraform/issues/33606,Ashish07Wiz,Terraform Crashed,N
+2023-07-29T10:25:32Z,https://github.com/hashicorp/terraform/issues/33605,devurandom,s3 backend on DigitalOcean Spaces fails to initialize: Error refreshing state: NotImplemented: Server does not support one or more requested headers.,N
+2023-07-28T20:23:35Z,https://github.com/hashicorp/terraform/issues/33603,gui-don,`tostring` documentation shows incorrect output,N
+2023-07-28T01:30:40Z,https://github.com/hashicorp/terraform/issues/33600,bwmetcalf,Adding AWS cross account provider orphans resource,N
+2023-07-27T23:18:38Z,https://github.com/hashicorp/terraform/issues/33599,sodul,.terraform.lock.hcl contains hashes for manifest.json files.,N
+2023-07-27T09:01:36Z,https://github.com/hashicorp/terraform/issues/33597,chenzejun,Planable import get unexpected update action when import resource with sensitive datasource filed.,N
+2023-07-27T08:13:45Z,https://github.com/hashicorp/terraform/issues/33596,henryAC3,"Error while loading schemas for plugin components: Failed to obtain provisioner schema: Could not load the schema for provisioner ""local_exec"": failed to instantiate provisioner ""local_exec"" to obtain schema: unavailable provisioner ""local_exec""..",N
+2023-07-27T07:20:51Z,https://github.com/hashicorp/terraform/issues/33595,ghost,TERRAFORM CRASH,N
+2023-07-27T07:06:20Z,https://github.com/hashicorp/terraform/issues/33594,dv-wataru-tatsuda,"[TYPO] the provider name is automatically changed as ""hashicorp/azruerm"", but it should be ""hashicorp/azurerm"".",N
+2023-07-27T03:55:54Z,https://github.com/hashicorp/terraform/issues/33593,Maneesankar,EBS volumes tags,N
+2023-07-26T20:46:38Z,https://github.com/hashicorp/terraform/issues/33591,reskin89,Count on Module with array length 1 does not get an index,N
+2023-07-26T14:35:26Z,https://github.com/hashicorp/terraform/issues/33588,jakubtrebacz-dev,Terraform functions allowed at init,N
+2023-07-26T12:31:24Z,https://github.com/hashicorp/terraform/issues/33586,drewmullen,`terraform test` crash when using `module.source`,N
+2023-07-26T10:00:23Z,https://github.com/hashicorp/terraform/issues/33585,merlian2,AWS QuickSight Analysis issue - FILTER_ALL_VALUES should be valid,N
+2023-07-26T07:31:36Z,https://github.com/hashicorp/terraform/issues/33582,liamcervante,Terraform test framework isn't discovering test files that are deeply nested,Y
+2023-07-25T19:11:53Z,https://github.com/hashicorp/terraform/issues/33579,Baburaju01,terraform-provider-cloudad_v0.1.0 plugin issue,N
+2023-07-25T13:17:08Z,https://github.com/hashicorp/terraform/issues/33577,SameepSB,Azure Linux VM build fails using custom image from image gallery,N
+2023-07-25T10:00:57Z,https://github.com/hashicorp/terraform/issues/33575,dosilyoun,Invalid AWS Region: eu-central-2 coming from Terraform CLI,N
+2023-07-25T09:43:27Z,https://github.com/hashicorp/terraform/issues/33574,karthiknaren,Terraform aws_kinesis_stream unable to switch from OnDemand to PROVISIONED,N
+2023-07-25T09:39:14Z,https://github.com/hashicorp/terraform/issues/33573,ravar17,"create Single GCP Dashboard per consumer id,",N
+2023-07-25T06:46:01Z,https://github.com/hashicorp/terraform/issues/33572,tristanmorgan,Terraform crash during import with check defined,N
+2023-07-24T22:27:41Z,https://github.com/hashicorp/terraform/issues/33570,asaba-hashi,Reject or warn about additional attributes during object type conversion,N
+2023-07-24T22:15:45Z,https://github.com/hashicorp/terraform/issues/33569,juicybaba,Side bar doesnt show the correct version for Terraform Enterprise v202307-1 (722),N
+2023-07-24T19:40:08Z,https://github.com/hashicorp/terraform/issues/33568,sdhonju,AttributeTypes on non-object Type goroutine 649,N
+2023-07-24T13:29:21Z,https://github.com/hashicorp/terraform/issues/33567,addyb77,Terraform crash v1.1.0,N
+2023-07-23T06:29:35Z,https://github.com/hashicorp/terraform/issues/33565,falco2202,Don't show output when use terraform module ,N
+2023-07-21T14:24:28Z,https://github.com/hashicorp/terraform/issues/33562,samar-elsayed,data source depending on another,N
+2023-07-20T07:37:03Z,https://github.com/hashicorp/terraform/issues/33555,kbcz1989,"Crashing with dynamic block named ""dynamic""",N
+2023-07-20T06:17:06Z,https://github.com/hashicorp/terraform/issues/33552,shettypriy,Unable to import in terraform version 1.4.6,N
+2023-07-20T01:35:48Z,https://github.com/hashicorp/terraform/issues/33551,deitch,github.com/hashicorp/terraform/states/statefile is internal; is there another library surface to read statefiles?,N
+2023-07-19T18:36:53Z,https://github.com/hashicorp/terraform/issues/33550,hmlanigan,grpc client panic with nil resource schema,N
+2023-07-19T12:27:10Z,https://github.com/hashicorp/terraform/issues/33549,karthickradhakrishnan,"panic: interface conversion: interface {} is nil, not map[string]interface {}",N
+2023-07-19T11:11:03Z,https://github.com/hashicorp/terraform/issues/33548,GloriaSam,Adding 'principals' to BigQuery data policy via 'google_bigquery_datapolicy_data_policy_iam*' resources not working,N
+2023-07-19T07:54:19Z,https://github.com/hashicorp/terraform/issues/33545,pieter-jangoeman,Azure Windows function app says every name I choose is incorrect,N
+2023-07-18T21:36:56Z,https://github.com/hashicorp/terraform/issues/33544,kderck,Terraform outputs sensitive information when using import block as comment,N
+2023-07-18T13:37:09Z,https://github.com/hashicorp/terraform/issues/33541,MrImpossibru,Impossible to use Private Modules Registry if it uses url subpath,N
+2023-07-18T13:33:35Z,https://github.com/hashicorp/terraform/issues/33540,njlr,Automatically recycle resources that are due to be deleted,N
+2023-07-18T09:43:57Z,https://github.com/hashicorp/terraform/issues/33539,EvaDonnermayer,"Azurerm_netapp_volume_group_sap_hana volume security style ""unix"" forces replacement",N
+2023-07-18T04:01:24Z,https://github.com/hashicorp/terraform/issues/33538,bloudraak,Provide a function to get the week number for a given timestamp,N
+2023-07-17T22:14:44Z,https://github.com/hashicorp/terraform/issues/33537,jasontfox,Plannable Import switch to ignore if resource doesn't exist,N
+2023-07-17T21:29:54Z,https://github.com/hashicorp/terraform/issues/33536,Yiranwu,`local_file` that creates files upon `terraform plan`?,N
+2023-07-17T15:58:06Z,https://github.com/hashicorp/terraform/issues/33533,gravitylow,Support for running terraform in time-constrained execution environments,N
+2023-07-15T02:01:29Z,https://github.com/hashicorp/terraform/issues/33530,thomasgouveia,Add a `create_namespace` attribute to the Kubernetes backend configuration,N
+2023-07-14T12:35:37Z,https://github.com/hashicorp/terraform/issues/33526,HEMANTHKUMAR689,Terraform plugins are loaded into the RAM/pod memory if they have been cached either during runtime or after the pod starts.,N
+2023-07-14T07:10:43Z,https://github.com/hashicorp/terraform/issues/33524,athirumalairaja,"problem with provisioner ""connection"" - Windows Vm in vsphere - added in domain",N
+2023-07-14T06:53:01Z,https://github.com/hashicorp/terraform/issues/33523,richardj-bsquare,Impenetrable Constraints - More detail required from terraform contraint errors,N
+2023-07-13T15:15:50Z,https://github.com/hashicorp/terraform/issues/33521,matschundbrei,check the type of input to a `for_each` on `validate` instead of failing at `plan`,N
+2023-07-13T13:40:09Z,https://github.com/hashicorp/terraform/issues/33519,h3adache,Optional Type Constraint fails after apply.,N
+2023-07-13T12:01:25Z,https://github.com/hashicorp/terraform/issues/33518,carlo98100,azurerm_cosmosdb_account => cors_rule => max_age_in_seconds,N
+2023-07-12T19:51:06Z,https://github.com/hashicorp/terraform/issues/33516,jeffrey-aguilera,Terraform is not usable for multi-region infrastructure as code,N
+2023-07-12T14:48:48Z,https://github.com/hashicorp/terraform/issues/33515,trifith,Code block for performing --replace operations,N
+2023-07-12T10:53:08Z,https://github.com/hashicorp/terraform/issues/33513,dcarrion87,Error with provisioning deployment,N
+2023-07-12T06:01:16Z,https://github.com/hashicorp/terraform/issues/33512,mounikabikki,"The environment variable TF_VAR_app_logs does not contain a valid value for │ variable ""app_logs"": element ""app_retention_days"": object required.",N
+2023-07-12T05:54:56Z,https://github.com/hashicorp/terraform/issues/33511,mounikabikki," Error: Incorrect variable type │  │   on vars.tf line 253: │  253: variable ""app_logs"" { │  │ The resolved value of variable ""app_logs"" is not appropriate: element │ ""app_retention_days"": object required.",N
+2023-07-11T23:05:26Z,https://github.com/hashicorp/terraform/issues/33510,Nuru,Automatically move module when count is introduced,N
+2023-07-11T22:31:09Z,https://github.com/hashicorp/terraform/issues/33509,Nuru,Local modules not updated on change,N
+2023-07-11T13:26:39Z,https://github.com/hashicorp/terraform/issues/33508,kun-lu20,Add s390x support to Terraform CLI,N
+2023-07-11T13:00:11Z,https://github.com/hashicorp/terraform/issues/33507,scott-doyland-burrows,aws_route53_record records getting destroyed but should not be,N
+2023-07-11T10:39:25Z,https://github.com/hashicorp/terraform/issues/33505,kmoe,"Import block with id of """" causes plan to error",Y
+2023-07-11T02:23:47Z,https://github.com/hashicorp/terraform/issues/33502,robwdux,aws_inspector2_enabler support enabling LAMBDACODE as a valid resource type,N
+2023-07-10T14:35:11Z,https://github.com/hashicorp/terraform/issues/33498,reyesj2,PCI passthrough: error reconfiguring VM,N
+2023-07-10T13:37:51Z,https://github.com/hashicorp/terraform/issues/33497,BrianTuduri,Problem with caching of vendor plugins in Terraform 1.4.0 and later versions,N
+2023-07-10T11:41:09Z,https://github.com/hashicorp/terraform/issues/33496,NiklasRosenstein,"Warn or fail on encountering values in `for_each` that _may_ only be known until apply, but are _currently_ known at plan time",N
+2023-07-10T10:20:25Z,https://github.com/hashicorp/terraform/issues/33495,vydrazde,Terraform registry module examples get misidentified as submodules,N
+2023-07-10T03:44:34Z,https://github.com/hashicorp/terraform/issues/33494,ravalikodam,"The connectivity problems encountered after rebuilding Perian and On Prem can be attributed to limitations arising from the VPC ID. These limitations are a consequence of managing infrastructure in other accounts, which are being handled separately. Additionally, there is a strong interdependence between the resources of the domain team and the accounts they manage using Terraform. This issue is rooted in legacy systems and practices.other accounts using Terraform. This constraint is a legacy problem.",N
