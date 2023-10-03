@@ -1,0 +1,672 @@
+DATE,PR,USER,TITLE,EMPLOYEE
+2023-09-29T08:30:10Z,https://github.com/hashicorp/terraform/pull/33959,liamcervante,Skip the interrupt messages when rendering remote logs for tests,Y
+2023-09-28T16:05:57Z,https://github.com/hashicorp/terraform/pull/33957,teamterraform,Backport of Increase timeout length after fatal interrupts for test cloud runs into v1.6,Y
+2023-09-28T14:46:21Z,https://github.com/hashicorp/terraform/pull/33956,liamcervante,Increase timeout length after fatal interrupts for test cloud runs,Y
+2023-09-28T12:05:15Z,https://github.com/hashicorp/terraform/pull/33955,teamterraform,Backport of Implement double cancel instead of force cancel for test cloud runs into v1.6,Y
+2023-09-28T11:49:32Z,https://github.com/hashicorp/terraform/pull/33954,teamterraform,Backport of Test files should be marked as skipped if all their run blocks were skipped into v1.6,Y
+2023-09-28T10:52:50Z,https://github.com/hashicorp/terraform/pull/33953,liamcervante,Test framework will produce regular updates in -json mode,Y
+2023-09-28T10:36:24Z,https://github.com/hashicorp/terraform/pull/33952,radeksimko,Fix typo in the 1.6 changelog,Y
+2023-09-28T09:29:11Z,https://github.com/hashicorp/terraform/pull/33951,liamcervante,Implement double cancel instead of force cancel for test cloud runs,Y
+2023-09-28T08:34:44Z,https://github.com/hashicorp/terraform/pull/33950,liamcervante,Test files should be marked as skipped if all their run blocks were skipped,Y
+2023-09-27T11:14:19Z,https://github.com/hashicorp/terraform/pull/33946,radeksimko,cloud: Fix typo & align `project` field description,Y
+2023-09-26T18:58:54Z,https://github.com/hashicorp/terraform/pull/33944,teamterraform,Backport of backend/s3: Supports S3 buckets with Object Lock into v1.6,Y
+2023-09-26T07:18:40Z,https://github.com/hashicorp/terraform/pull/33942,teamterraform,Backport of Refactor cloud test run cancellation logic to always intercept signals into v1.6,Y
+2023-09-26T05:34:01Z,https://github.com/hashicorp/terraform/pull/33941,ravinitp,Terraform S3 Backend Customisation - DynamoDB Free Option,N
+2023-09-25T21:25:42Z,https://github.com/hashicorp/terraform/pull/33940,gdavison,backend/s3: Supports S3 buckets with Object Lock,Y
+2023-09-25T11:23:43Z,https://github.com/hashicorp/terraform/pull/33938,teamterraform,Backport of Fix panic when tests on TFC exit early into v1.6,Y
+2023-09-25T04:01:39Z,https://github.com/hashicorp/terraform/pull/33937,notone0010,Feature/ks3 backend,N
+2023-09-22T20:21:13Z,https://github.com/hashicorp/terraform/pull/33934,yarikoptic,"Codespell: add workflow, config and some typos fixed",N
+2023-09-22T20:03:55Z,https://github.com/hashicorp/terraform/pull/33933,teamterraform,Backport of backend/s3: Adds `source_identity` to `assume_role` block into v1.6,Y
+2023-09-22T17:20:49Z,https://github.com/hashicorp/terraform/pull/33932,jbardin,Import block expansion with for_each,Y
+2023-09-22T15:11:12Z,https://github.com/hashicorp/terraform/pull/33930,liamcervante,Refactor cloud test run cancellation logic to always intercept signals,Y
+2023-09-22T13:17:20Z,https://github.com/hashicorp/terraform/pull/33929,liamcervante,Fix panic when tests on TFC exit early,Y
+2023-09-22T05:40:21Z,https://github.com/hashicorp/terraform/pull/33928,teamterraform,Backport of [Docs Fix] Add table for run block in testing docs and remove doubled notes into v1.6,Y
+2023-09-21T20:44:32Z,https://github.com/hashicorp/terraform/pull/33926,rkoron007,[Docs Fix] Add table for run block in testing docs and remove doubled notes,Y
+2023-09-21T17:17:08Z,https://github.com/hashicorp/terraform/pull/33925,radditude,use latest backport-assistant,Y
+2023-09-21T16:39:29Z,https://github.com/hashicorp/terraform/pull/33924,kmoe,Backport to v1.6: Fix mock provider ImportState data race ,Y
+2023-09-21T16:35:01Z,https://github.com/hashicorp/terraform/pull/33923,teamterraform,Backport of Fix mock provider ImportState data race into v1.6,Y
+2023-09-21T09:55:10Z,https://github.com/hashicorp/terraform/pull/33921,kmoe,Fix mock provider ImportState data race,Y
+2023-09-20T09:25:15Z,https://github.com/hashicorp/terraform/pull/33917,Naveen161295,User1 commit,N
+2023-09-19T18:42:17Z,https://github.com/hashicorp/terraform/pull/33913,teamterraform,Backport of backend/s3: set required or optional for single nested attributes into v1.6,Y
+2023-09-19T16:21:30Z,https://github.com/hashicorp/terraform/pull/33912,mrpavan,Update requirements.mdx,N
+2023-09-19T12:56:54Z,https://github.com/hashicorp/terraform/pull/33909,teamterraform,Backport of import blocks are evaluated in the root module into v1.6,Y
+2023-09-18T22:40:06Z,https://github.com/hashicorp/terraform/pull/33906,gdavison,Backport of backend/s3: Add wrong bucket region handling to all of S3 client into v1.6,Y
+2023-09-15T19:02:33Z,https://github.com/hashicorp/terraform/pull/33902,jar-b,configschema: CoerceValue error for omitted attribute requirements,Y
+2023-09-15T18:00:59Z,https://github.com/hashicorp/terraform/pull/33901,jar-b,backend/s3: set required or optional for single nested attributes,Y
+2023-09-14T19:23:31Z,https://github.com/hashicorp/terraform/pull/33899,gdavison,backend/s3: Adds `source_identity` to `assume_role` block,Y
+2023-09-14T16:07:04Z,https://github.com/hashicorp/terraform/pull/33897,jbardin,import blocks are evaluated in the root module,Y
+2023-09-14T09:42:24Z,https://github.com/hashicorp/terraform/pull/33895,teamterraform,Backport of Fix typo in login link from test command doc page into v1.6,Y
+2023-09-14T07:44:37Z,https://github.com/hashicorp/terraform/pull/33894,teamterraform,Backport of Add additional validation around unknown and null values in test variables into v1.6,Y
+2023-09-14T07:01:48Z,https://github.com/hashicorp/terraform/pull/33893,teamterraform,Backport of Implement TFC integration for private module registry test runs into v1.6,Y
+2023-09-14T06:49:10Z,https://github.com/hashicorp/terraform/pull/33892,liamcervante,Fix typo in login link from test command doc page,Y
+2023-09-14T06:47:57Z,https://github.com/hashicorp/terraform/pull/33891,teamterraform,Backport of Add warning when testing and combining expect_failures with apply operations into v1.6,Y
+2023-09-14T06:33:54Z,https://github.com/hashicorp/terraform/pull/33890,teamterraform,Backport of Apply defaults when processing variables for assertions into v1.6,Y
+2023-09-14T06:22:35Z,https://github.com/hashicorp/terraform/pull/33889,liamcervante,Manual backport of Add cloud-run documentation for testing framework in v1.6,Y
+2023-09-14T06:17:11Z,https://github.com/hashicorp/terraform/pull/33888,teamterraform,Backport of Add cloud-run documentation for testing framework into v1.6,Y
+2023-09-13T22:49:46Z,https://github.com/hashicorp/terraform/pull/33886,teamterraform,Backport of backend/s3: Adds `singleNestedAttribute` to internal schema into v1.6,Y
+2023-09-13T22:09:42Z,https://github.com/hashicorp/terraform/pull/33885,gdavison,backend/s3: Add wrong bucket region handling to all of S3 client,Y
+2023-09-13T17:42:59Z,https://github.com/hashicorp/terraform/pull/33883,teamterraform,Backport of backend/s3: Handles case when bucket is requested from wrong region into v1.6,Y
+2023-09-12T23:06:50Z,https://github.com/hashicorp/terraform/pull/33881,gdavison,backend/s3: Handles case when bucket is requested from wrong region,Y
+2023-09-12T16:37:13Z,https://github.com/hashicorp/terraform/pull/33879,teamterraform,Backport of Improve error message when S3 state checksums don't line up into v1.6,Y
+2023-09-12T13:41:03Z,https://github.com/hashicorp/terraform/pull/33877,teamterraform,Backport of backend/s3: prevent keys containing double slashes into v1.6,Y
+2023-09-12T09:08:32Z,https://github.com/hashicorp/terraform/pull/33875,liamcervante,Add cloud-run documentation for testing framework,Y
+2023-09-12T04:36:17Z,https://github.com/hashicorp/terraform/pull/33873,yashx,Support conditionally auto loading tfvars on workspace,N
+2023-09-11T22:22:19Z,https://github.com/hashicorp/terraform/pull/33872,gdavison,backend/s3: Adds `singleNestedAttribute` to internal schema,Y
+2023-09-11T21:27:10Z,https://github.com/hashicorp/terraform/pull/33871,crw,Small rewrite of Contrib to better reflect current practices.,Y
+2023-09-11T19:13:57Z,https://github.com/hashicorp/terraform/pull/33870,teamterraform,Backport of website: DynamoDB now supports fine-grain IAM policies into v1.6,Y
+2023-09-11T18:39:01Z,https://github.com/hashicorp/terraform/pull/33869,jar-b,backend/s3: prevent keys containing double slashes,Y
+2023-09-11T16:51:58Z,https://github.com/hashicorp/terraform/pull/33868,liamcervante,Add warning when testing and combining expect_failures with apply operations,Y
+2023-09-11T13:23:35Z,https://github.com/hashicorp/terraform/pull/33867,liamcervante,Apply defaults when processing variables for assertions,Y
+2023-09-11T11:33:34Z,https://github.com/hashicorp/terraform/pull/33865,teamterraform,Backport of build with Go 1.21.1 into v1.6,Y
+2023-09-11T10:20:12Z,https://github.com/hashicorp/terraform/pull/33863,l-with,Gunzipbase64,N
+2023-09-11T09:54:01Z,https://github.com/hashicorp/terraform/pull/33861,liamcervante,Add additional validation around unknown and null values in test variables,Y
+2023-09-09T10:29:46Z,https://github.com/hashicorp/terraform/pull/33856,joaocc,nonsensitive: no longer produces error when applied to nonsensitive values,N
+2023-09-09T06:06:26Z,https://github.com/hashicorp/terraform/pull/33855,teamterraform,Backport of Explicitely disallow duplicate run block names in test files into v1.6,Y
+2023-09-09T05:49:13Z,https://github.com/hashicorp/terraform/pull/33854,teamterraform,Backport of Reserve state and plan keywords in test files into v1.6,Y
+2023-09-08T22:51:18Z,https://github.com/hashicorp/terraform/pull/33853,teamterraform,Backport of backend/s3: Improves bare error messages from API responses into v1.6,Y
+2023-09-08T20:32:58Z,https://github.com/hashicorp/terraform/pull/33852,teamterraform,Backport of backend/s3: Restore HTTP request/response logging into v1.6,Y
+2023-09-08T19:37:27Z,https://github.com/hashicorp/terraform/pull/33851,gdavison,backend/s3: Improves bare error messages from API responses,Y
+2023-09-08T19:00:40Z,https://github.com/hashicorp/terraform/pull/33850,gdavison,backend/s3: Restore HTTP request/response logging,Y
+2023-09-08T17:58:10Z,https://github.com/hashicorp/terraform/pull/33849,teamterraform,Backport of Make the test command fail if resources could not be cleaned up into v1.6,Y
+2023-09-08T17:45:21Z,https://github.com/hashicorp/terraform/pull/33848,teamterraform,Backport of Refactor file and run block feedback frequency into v1.6,Y
+2023-09-08T08:44:18Z,https://github.com/hashicorp/terraform/pull/33846,liamcervante,Reserve state and plan keywords in test files,Y
+2023-09-07T20:47:33Z,https://github.com/hashicorp/terraform/pull/33844,brandonc,cloud: don't update snapshot interval unless response is from tfe.v2,Y
+2023-09-07T20:40:02Z,https://github.com/hashicorp/terraform/pull/33843,teamterraform,Backport of backend/s3: Use Transfer Managers to speed up transfers of large state files into v1.6,Y
+2023-09-07T19:34:39Z,https://github.com/hashicorp/terraform/pull/33842,gdavison,Adds logging for `aws-sdk-go-base`,Y
+2023-09-07T19:29:10Z,https://github.com/hashicorp/terraform/pull/33841,gdavison,backend/s3: Adds tests for endpoint overrides and adds validation for parameters,Y
+2023-09-07T19:05:10Z,https://github.com/hashicorp/terraform/pull/33840,liamcervante,Refactor file and run block feedback frequency,Y
+2023-09-07T18:42:28Z,https://github.com/hashicorp/terraform/pull/33839,gdavison,backend/s3: Use Transfer Managers to speed up transfers of large state files,Y
+2023-09-07T14:50:26Z,https://github.com/hashicorp/terraform/pull/33836,liamcervante,Explicitely disallow duplicate run block names in test files,Y
+2023-09-07T14:23:26Z,https://github.com/hashicorp/terraform/pull/33835,teamterraform,Backport of cloud: state snapshots always enabled despite missing header x-terraform-snapshot-interval into v1.6,Y
+2023-09-07T14:23:21Z,https://github.com/hashicorp/terraform/pull/33834,teamterraform,Backport of cloud: state snapshots always enabled despite missing header x-terraform-snapshot-interval into v1.5,Y
+2023-09-07T14:21:50Z,https://github.com/hashicorp/terraform/pull/33833,teamterraform,Backport of backend/s3: add allowed/forbidden account ID parameters into v1.6,Y
+2023-09-07T13:56:44Z,https://github.com/hashicorp/terraform/pull/33832,jbardin,v1.5 backport of 33821,Y
+2023-09-07T13:56:01Z,https://github.com/hashicorp/terraform/pull/33831,jbardin,v1.6 backport of 33821,Y
+2023-09-07T10:27:12Z,https://github.com/hashicorp/terraform/pull/33830,kmoe,build with Go 1.21.1,Y
+2023-09-06T19:48:40Z,https://github.com/hashicorp/terraform/pull/33825,gdavison,backend/s3: Adds logging for `aws-sdk-go-base`,Y
+2023-09-06T19:15:53Z,https://github.com/hashicorp/terraform/pull/33824,jbardin,v1.6 backport of #33132,Y
+2023-09-06T18:38:12Z,https://github.com/hashicorp/terraform/pull/33823,jbardin,v1.6 backport of #33807,Y
+2023-09-06T18:35:00Z,https://github.com/hashicorp/terraform/pull/33822,gdavison,backend/s3: Adds tests for endpoint overrides and adds validation for parameters,Y
+2023-09-06T18:22:08Z,https://github.com/hashicorp/terraform/pull/33821,jbardin,re-clarify types documentation,Y
+2023-09-06T17:15:36Z,https://github.com/hashicorp/terraform/pull/33820,brandonc,cloud: state snapshots always enabled despite missing header x-terraform-snapshot-interval,Y
+2023-09-06T16:28:23Z,https://github.com/hashicorp/terraform/pull/33819,alisdair,statefile: Ignore unknown check results on decode,Y
+2023-09-06T16:27:15Z,https://github.com/hashicorp/terraform/pull/33818,alisdair,statefile: Ignore unknown check results on decode,Y
+2023-09-06T15:14:20Z,https://github.com/hashicorp/terraform/pull/33816,mesrikanthreddy,Update README.md,N
+2023-09-06T14:52:28Z,https://github.com/hashicorp/terraform/pull/33815,alisdair,statefile: Ignore unknown check results on decode,Y
+2023-09-06T14:28:14Z,https://github.com/hashicorp/terraform/pull/33814,alisdair,statefile: Ignore unknown check results on decode,Y
+2023-09-06T14:27:16Z,https://github.com/hashicorp/terraform/pull/33813,alisdair,statefile: Ignore unknown check results on decode,Y
+2023-09-06T14:25:04Z,https://github.com/hashicorp/terraform/pull/33812,alisdair,release: Backport release tools,Y
+2023-09-06T10:58:45Z,https://github.com/hashicorp/terraform/pull/33809,liamcervante,Make the test command fail if resources could not be cleaned up,Y
+2023-09-05T22:08:13Z,https://github.com/hashicorp/terraform/pull/33807,jbardin,move `GetProviderSchemaOptional` check to correct block,Y
+2023-09-05T20:53:29Z,https://github.com/hashicorp/terraform/pull/33805,jar-b,backend/s3: add allowed/forbidden account ID parameters,Y
+2023-09-05T19:31:19Z,https://github.com/hashicorp/terraform/pull/33804,jar-b,backend/s3: fix assume_role_with_web_identity env var handling,Y
+2023-09-04T09:05:14Z,https://github.com/hashicorp/terraform/pull/33792,koitsu,Update index.mdx,N
+2023-09-01T21:52:57Z,https://github.com/hashicorp/terraform/pull/33789,teamterraform,Backport of clarify types and link to Type Constraints pagedit types into v1.5,Y
+2023-09-01T14:55:29Z,https://github.com/hashicorp/terraform/pull/33783,teamterraform,Backport of Handle null outputs in Terraform test files into v1.6,Y
+2023-09-01T13:59:22Z,https://github.com/hashicorp/terraform/pull/33781,liamcervante,Handle null outputs in Terraform test files,Y
+105,10,9.52%,,
+2023-08-31T19:44:25Z,https://github.com/hashicorp/terraform/pull/33778,Varriount,Mention shell injection in local provisioner documentation,N
+2023-08-31T18:15:28Z,https://github.com/hashicorp/terraform/pull/33777,teamterraform,Backport of Ignore remote version conflict for force-unlock into v1.6,Y
+2023-08-31T17:57:42Z,https://github.com/hashicorp/terraform/pull/33776,teamterraform,Backport of backend/s3(docs): expand access control examples into v1.6,Y
+2023-08-31T17:38:01Z,https://github.com/hashicorp/terraform/pull/33775,brandonc,cloud: State upload verification and timeout,Y
+2023-08-31T08:48:07Z,https://github.com/hashicorp/terraform/pull/33774,kmoe,website: update docs for import block dynamic ids,Y
+2023-08-30T20:39:57Z,https://github.com/hashicorp/terraform/pull/33771,jar-b,backend/s3(docs): expand access control examples,Y
+2023-08-30T16:46:40Z,https://github.com/hashicorp/terraform/pull/33769,kmoe,v1.5 backport of initwd: require valid module name,Y
+2023-08-30T12:58:31Z,https://github.com/hashicorp/terraform/pull/33768,bflad,internal/plugin+internal/plugin6: Fix provider schema caching,Y
+2023-08-29T20:10:15Z,https://github.com/hashicorp/terraform/pull/33765,jar-b,backend/s3: Parity with the AWS provider configuration options,Y
+2023-08-29T20:00:10Z,https://github.com/hashicorp/terraform/pull/33764,crw,Update CONTRIBUTING.md,Y
+2023-08-28T15:16:58Z,https://github.com/hashicorp/terraform/pull/33760,liamcervante,Terraform test directory must be local to the config directory,Y
+2023-08-25T19:48:43Z,https://github.com/hashicorp/terraform/pull/33758,jbardin,Update HCL,Y
+2023-08-25T11:58:54Z,https://github.com/hashicorp/terraform/pull/33755,liamcervante,Embed the schemas directly in the testing framework JSON verbose outputs,Y
+2023-08-25T02:16:47Z,https://github.com/hashicorp/terraform/pull/33749,jar-b,backend/s3: add sts_region argument,Y
+2023-08-25T02:13:10Z,https://github.com/hashicorp/terraform/pull/33748,jar-b,backend/s3: add http_proxy and related arguments,Y
+2023-08-25T02:05:16Z,https://github.com/hashicorp/terraform/pull/33747,jar-b,backend/s3: add ec2_metadata_service_endpoint argument,Y
+2023-08-25T01:59:34Z,https://github.com/hashicorp/terraform/pull/33746,jar-b,backend/s3: add custom_ca_bundle argument,Y
+2023-08-25T00:45:21Z,https://github.com/hashicorp/terraform/pull/33745,radditude,initwd: require valid module name,Y
+2023-08-24T20:44:44Z,https://github.com/hashicorp/terraform/pull/33744,teamterraform,Backport of Swap update-ironbank and crt-hook-tfc-upload execution order in the CRT pipeline into v1.5,Y
+2023-08-24T20:35:28Z,https://github.com/hashicorp/terraform/pull/33743,brandonc,Backport bump go tfe v1.32.1 to v1.5,Y
+2023-08-24T18:43:03Z,https://github.com/hashicorp/terraform/pull/33742,bflad,internal/grpcwrap: Ensure GetProviderSchemaOptional server capability is passed through,Y
+2023-08-24T17:21:07Z,https://github.com/hashicorp/terraform/pull/33741,kmoe,upgrade go-cty to v1.13.3,Y
+2023-08-24T16:38:16Z,https://github.com/hashicorp/terraform/pull/33740,marianoasselborn,Swap update-ironbank and crt-hook-tfc-upload execution order in the CRT pipeline,Y
+2023-08-24T15:28:28Z,https://github.com/hashicorp/terraform/pull/33739,bflad,Add GetMetadata RPC to provider protocol,Y
+2023-08-24T15:25:45Z,https://github.com/hashicorp/terraform/pull/33738,marianoasselborn,Enable Iron Bank updates,Y
+2023-08-24T15:17:24Z,https://github.com/hashicorp/terraform/pull/33737,kmoe,codeowners: core as default owner,Y
+2023-08-24T14:50:35Z,https://github.com/hashicorp/terraform/pull/33736,brandonc,cloudplugin: change manifest format to match releases API,Y
+2023-08-24T14:47:45Z,https://github.com/hashicorp/terraform/pull/33735,liamcervante,Fix cross build file link from build.yml,Y
+2023-08-24T14:42:03Z,https://github.com/hashicorp/terraform/pull/33734,liamcervante,Prepare for the introduction of remote test runs,Y
+2023-08-23T22:24:52Z,https://github.com/hashicorp/terraform/pull/33731,teamterraform,Backport of Update debugging.mdx to capitalize Terraform into v1.4,Y
+2023-08-23T20:32:09Z,https://github.com/hashicorp/terraform/pull/33730,jar-b,backend/s3: Update S3 client to AWS SDK Go V2,Y
+2023-08-23T19:09:36Z,https://github.com/hashicorp/terraform/pull/33729,marianoasselborn,Enable Iron Bank updates,Y
+2023-08-22T21:46:06Z,https://github.com/hashicorp/terraform/pull/33724,gdavison,S3/f update endpoint arguments,Y
+2023-08-22T21:01:44Z,https://github.com/hashicorp/terraform/pull/33723,jar-b,backend/s3: support multiple shared config/credentials files,Y
+2023-08-22T14:31:57Z,https://github.com/hashicorp/terraform/pull/33722,liamcervante,Allow referencing higher level variables from run blocks,Y
+2023-08-22T08:47:46Z,https://github.com/hashicorp/terraform/pull/33721,liamcervante,Update test framework variable parsing to support complex types,Y
+2023-08-22T08:10:45Z,https://github.com/hashicorp/terraform/pull/33720,liamcervante,Include run block for JSON fatal interrupt test summaries,Y
+2023-08-21T23:59:55Z,https://github.com/hashicorp/terraform/pull/33718,brandonc,Ignore remote version conflict for force-unlock,Y
+2023-08-21T20:37:07Z,https://github.com/hashicorp/terraform/pull/33716,jar-b,backend/s3: add `use_legacy_workflow` argument to `modernization` branch,Y
+2023-08-21T20:27:19Z,https://github.com/hashicorp/terraform/pull/33715,gdavison,backend/s3: Adds support for standard AWS endpoint environment variables and deprecates backend-specific envvars,Y
+2023-08-21T17:25:54Z,https://github.com/hashicorp/terraform/pull/33714,brandonc,Update CHANGELOG.md,Y
+2023-08-21T17:21:30Z,https://github.com/hashicorp/terraform/pull/33713,teamterraform,Backport of Bump go-tfe to v1.32.1 into v1.5,Y
+2023-08-21T15:42:30Z,https://github.com/hashicorp/terraform/pull/33710,liamcervante,Implement TFC integration for private module registry test runs,Y
+2023-08-18T19:30:00Z,https://github.com/hashicorp/terraform/pull/33705,brandonc,Bump go-tfe to v1.32.1,Y
+2023-08-17T12:16:01Z,https://github.com/hashicorp/terraform/pull/33704,matheusmgon,change terraform to ?,N
+2023-08-17T02:11:02Z,https://github.com/hashicorp/terraform/pull/33702,radditude,ci: fix copyright header check,Y
+2023-08-16T23:50:42Z,https://github.com/hashicorp/terraform/pull/33701,rkoron007,Update file name,Y
+2023-08-16T18:07:31Z,https://github.com/hashicorp/terraform/pull/33699,radditude,[COMPLIANCE] further license updates,Y
+2023-08-16T10:27:34Z,https://github.com/hashicorp/terraform/pull/33697,hashicorp-copywrite[bot],[COMPLIANCE] License update,Y
+2023-08-16T10:22:07Z,https://github.com/hashicorp/terraform/pull/33696,hashicorp-copywrite[bot],[COMPLIANCE] License update,Y
+2023-08-16T10:14:41Z,https://github.com/hashicorp/terraform/pull/33695,hashicorp-copywrite[bot],[COMPLIANCE] License update,Y
+2023-08-15T21:38:22Z,https://github.com/hashicorp/terraform/pull/33691,apparentlymart,Build with Go 1.21.0,Y
+2023-08-15T17:53:49Z,https://github.com/hashicorp/terraform/pull/33684,ankon,Feature/allow multiple imports at the same time,N
+2023-08-15T11:31:43Z,https://github.com/hashicorp/terraform/pull/33683,liamcervante,Introduce 'run' keyword for referencing outputs from earlier run blocks,Y
+2023-08-14T10:19:40Z,https://github.com/hashicorp/terraform/pull/33679,liamcervante,Add support for sensitive values in test assertions,Y
+2023-08-14T10:13:49Z,https://github.com/hashicorp/terraform/pull/33678,sarahethompson,Update linux package license to BUSL-1.1,N
+2023-08-14T09:57:24Z,https://github.com/hashicorp/terraform/pull/33677,liamcervante,Removing alternate functions for state and plan from `test_context.go`,Y
+2023-08-14T09:12:16Z,https://github.com/hashicorp/terraform/pull/33675,liamcervante,Update error message from an unknown Terraform Test condition,Y
+2023-08-13T17:36:36Z,https://github.com/hashicorp/terraform/pull/33674,stefkiourk,Update debugging.mdx to capitalize Terraform,N
+2023-08-12T18:41:37Z,https://github.com/hashicorp/terraform/pull/33673,gdavison,backend/s3: Additional validation to `modernization` branch,Y
+2023-08-12T18:34:47Z,https://github.com/hashicorp/terraform/pull/33672,gdavison,backend/s3: Additional validation to `modernization` branch,Y
+2023-08-11T18:13:55Z,https://github.com/hashicorp/terraform/pull/33670,alisdair,Update website to reflect new license,Y
+2023-08-11T16:37:27Z,https://github.com/hashicorp/terraform/pull/33668,vieiralucas,Update readme,N
+2023-08-11T09:02:16Z,https://github.com/hashicorp/terraform/pull/33665,liamcervante,Update licence link in README to BSL,Y
+2023-08-10T23:23:16Z,https://github.com/hashicorp/terraform/pull/33662,gdavison,backend/s3: Additional validation,Y
+2023-08-10T21:04:43Z,https://github.com/hashicorp/terraform/pull/33661,hashicorp-copywrite[bot],[COMPLIANCE] License changes,Y
+2023-08-10T07:18:51Z,https://github.com/hashicorp/terraform/pull/33656,lyu571,backend/cos: Support endpoint,N
+2023-08-09T13:50:07Z,https://github.com/hashicorp/terraform/pull/33653,liamcervante,Update JSON_UI_VERSION after test framework changes,Y
+2023-08-09T13:23:32Z,https://github.com/hashicorp/terraform/pull/33652,liamcervante,Fix root cause of race condition in testing framework tests,Y
+2023-08-09T09:19:26Z,https://github.com/hashicorp/terraform/pull/33650,teamterraform,Backport of Make config errors more important during init operations into v1.5,Y
+2023-08-08T16:12:03Z,https://github.com/hashicorp/terraform/pull/33648,abuxton,Update sources.mdx,Y
+2023-08-08T13:37:35Z,https://github.com/hashicorp/terraform/pull/33647,kmoe,build with Go 1.20.7,Y
+2023-08-08T13:35:28Z,https://github.com/hashicorp/terraform/pull/33646,teamterraform,Backport of build with Go 1.20.7 into v1.5,Y
+2023-08-08T08:02:11Z,https://github.com/hashicorp/terraform/pull/33645,kmoe,build with Go 1.20.7,Y
+2023-08-07T13:20:14Z,https://github.com/hashicorp/terraform/pull/33643,liamcervante,Implement updates to testing framework based on recent feedback,Y
+2023-08-05T02:02:30Z,https://github.com/hashicorp/terraform/pull/33635,cadamini,Improve syntax docs,N
+2023-08-04T14:32:52Z,https://github.com/hashicorp/terraform/pull/33634,jbardin,Allow `get` and `init -from-module` to complete when there are configuration validation errors,Y
+2023-08-04T00:55:06Z,https://github.com/hashicorp/terraform/pull/33631,gdavison,backend/s3: Updates `aws-sdk-go-base` to `v2`,Y
+2023-08-04T00:49:35Z,https://github.com/hashicorp/terraform/pull/33630,gdavison,backend/s3: Adds nested attribute for `assume_role`,Y
+2023-08-03T17:04:10Z,https://github.com/hashicorp/terraform/pull/33629,zachsdd,Add CIDR collapse functionality,N
+2023-08-03T08:08:12Z,https://github.com/hashicorp/terraform/pull/33628,liamcervante,Make config errors more important during init operations,Y
+2023-08-02T19:37:23Z,https://github.com/hashicorp/terraform/pull/33625,gdavison,backend/s3: Adds nested attribute for `assume_role`,Y
+2023-08-02T11:50:00Z,https://github.com/hashicorp/terraform/pull/33623,liamcervante,cleanup after 1.6.0-alpha20230802 release,Y
+2023-08-02T09:39:02Z,https://github.com/hashicorp/terraform/pull/33621,liamcervante,Prepare for the 1.6.0-alpha20230208 release,Y
+2023-08-01T13:14:29Z,https://github.com/hashicorp/terraform/pull/33618,kmoe,allow interpolation in import block id,Y
+2023-08-01T08:38:44Z,https://github.com/hashicorp/terraform/pull/33616,liamcervante,Fix race condition in no_providers_in_main test,Y
+86,8,9.30%,,
+2023-07-31T17:59:45Z,https://github.com/hashicorp/terraform/pull/33614,teamterraform,Backport of Update tostring.mdx for null value conversion into v1.5,Y
+2023-07-31T12:09:20Z,https://github.com/hashicorp/terraform/pull/33611,liamcervante,test framework: expand variables available to test assertions,Y
+2023-07-31T10:10:25Z,https://github.com/hashicorp/terraform/pull/33608,liamcervante,test framework: include transformed config before validating config,Y
+2023-07-31T08:30:25Z,https://github.com/hashicorp/terraform/pull/33607,jBouyoud,fix: bump aws-sdk-go from 1.44.122 to 1.44.298,N
+2023-07-28T22:11:14Z,https://github.com/hashicorp/terraform/pull/33604,crw,Update tostring.mdx for null value conversion,Y
+2023-07-28T19:20:15Z,https://github.com/hashicorp/terraform/pull/33602,brandonc,Download and authenticate the cloudplugin,Y
+2023-07-28T08:13:57Z,https://github.com/hashicorp/terraform/pull/33601,liamcervante,test framework: fix remaining assertions being checked after one has failed,Y
+2023-07-27T01:08:40Z,https://github.com/hashicorp/terraform/pull/33592,radditude,update go-getter to v1.7.2,Y
+2023-07-26T15:36:21Z,https://github.com/hashicorp/terraform/pull/33590,brandonc,Create provisional configuration version when saving plan using cloud backend,Y
+2023-07-26T15:27:16Z,https://github.com/hashicorp/terraform/pull/33589,liamcervante,terraform test: fix crash when using nested modules from test run blocks,Y
+2023-07-26T13:00:32Z,https://github.com/hashicorp/terraform/pull/33587,sebasslash,Add changelog entry for saved cloud plans,Y
+2023-07-26T09:52:41Z,https://github.com/hashicorp/terraform/pull/33584,liamcervante,testing framework: allow users to specify deeply nested testing directories,Y
+2023-07-26T07:41:17Z,https://github.com/hashicorp/terraform/pull/33583,teamterraform,Backport of Fix crash when nested data blocks are mixed with the import command into v1.5,Y
+2023-07-26T06:18:44Z,https://github.com/hashicorp/terraform/pull/33581,hongshaoyang,website: doc: Add another example to `~>` operator,N
+2023-07-25T22:12:03Z,https://github.com/hashicorp/terraform/pull/33580,teamterraform,Backport of docs: create_before_destroy meta-attribute propagation into v1.5,Y
+2023-07-25T14:44:15Z,https://github.com/hashicorp/terraform/pull/33578,liamcervante,Fix crash when nested data blocks are mixed with the import command,Y
+2023-07-25T12:32:40Z,https://github.com/hashicorp/terraform/pull/33576,liamcervante,test framework: add support for testing files to fmt command,Y
+2023-07-25T00:54:16Z,https://github.com/hashicorp/terraform/pull/33571,gdavison,S3 Backend: Add legacy authentication flow tests,Y
+2023-07-24T10:03:23Z,https://github.com/hashicorp/terraform/pull/33566,Frankkkkk,"website: doc: fmt: specify ""no flag"" action",N
+2023-07-22T23:30:41Z,https://github.com/hashicorp/terraform/pull/33564,X-oss-byte,Create Azure,N
+2023-07-21T21:01:40Z,https://github.com/hashicorp/terraform/pull/33563,teamterraform,Backport of Relocate localterraform.com aliasing to backend configurators  into v1.5,Y
+2023-07-21T09:13:04Z,https://github.com/hashicorp/terraform/pull/33561,liamcervante,testing framework: validate available variables before starting a test,Y
+2023-07-20T15:25:55Z,https://github.com/hashicorp/terraform/pull/33560,liamcervante,Fix flaky test in views package,Y
+2023-07-20T15:12:37Z,https://github.com/hashicorp/terraform/pull/33559,liamcervante,testing framework: validate the configuration before terraform test,Y
+2023-07-20T13:22:15Z,https://github.com/hashicorp/terraform/pull/33558,GOTAM672,Fix error message for Import block with blank ID,N
+2023-07-20T12:52:40Z,https://github.com/hashicorp/terraform/pull/33557,zahornyak,Update lower.mdx(removed russian language),N
+2023-07-20T08:13:38Z,https://github.com/hashicorp/terraform/pull/33556,dependabot[bot],Bump word-wrap from 1.2.3 to 1.2.4 in /website,Y
+2023-07-20T07:07:06Z,https://github.com/hashicorp/terraform/pull/33554,liamcervante,testing framework: add trace and debug statements during test executions,Y
+2023-07-20T06:50:39Z,https://github.com/hashicorp/terraform/pull/33553,liamcervante,testing framework: change test file extension to .tftest.hcl,Y
+2023-07-19T09:53:42Z,https://github.com/hashicorp/terraform/pull/33547,liamcervante,Implement word wrapping in the terraform test view functions,Y
+2023-07-19T09:10:48Z,https://github.com/hashicorp/terraform/pull/33546,liamcervante,Update CHANGELOG.md for new testing framework,Y
+2023-07-18T17:56:41Z,https://github.com/hashicorp/terraform/pull/33543,jbardin,always set schema caches from provider clients,Y
+2023-07-18T15:14:31Z,https://github.com/hashicorp/terraform/pull/33542,liamcervante,testing framework: add validation for provider blocks in test files,Y
+2023-07-17T20:21:53Z,https://github.com/hashicorp/terraform/pull/33535,jpancoast,Added role_arn example usage to terraform_remote_state data source,N
+2023-07-17T19:38:41Z,https://github.com/hashicorp/terraform/pull/33534,gdavison,S3 Backend: Converts from `legacy/helper/schema` to `configschema`,Y
+2023-07-17T11:00:40Z,https://github.com/hashicorp/terraform/pull/33532,liamcervante,testing framework: refactor interrupt logic for immediate exits,Y
+2023-07-15T14:02:19Z,https://github.com/hashicorp/terraform/pull/33531,yushao2,fix: bump aws-sdk-go-base to v2.0.0-beta.24,N
+2023-07-14T17:24:47Z,https://github.com/hashicorp/terraform/pull/33529,teamterraform,Backport of docs: update splat expressions in directives into v1.5,Y
+2023-07-14T17:12:32Z,https://github.com/hashicorp/terraform/pull/33528,teamterraform,Backport of Remove PATH from GetCommand helpText into v1.5,Y
+2023-07-14T16:51:40Z,https://github.com/hashicorp/terraform/pull/33527,hashicorp-tsccr[bot],SEC-090: Automated trusted workflow pinning (2023-07-14),Y
+2023-07-14T08:58:35Z,https://github.com/hashicorp/terraform/pull/33525,liamcervante,testing framework: implement panic handling,Y
+2023-07-13T20:04:31Z,https://github.com/hashicorp/terraform/pull/33522,johnnywalker,Bump aws-sdk-go from 1.44.122 to 1.44.298,N
+2023-07-13T14:55:08Z,https://github.com/hashicorp/terraform/pull/33520,rawkode,feat: allow custom headers for http backend,N
+2023-07-12T21:46:53Z,https://github.com/hashicorp/terraform/pull/33517,teamterraform,Backport of [docs] Add example for using cloud-config in place of file provisioners into v1.5,Y
+2023-07-12T12:49:12Z,https://github.com/hashicorp/terraform/pull/33514,AgustinRamiroDiaz,Update sum.mdx docs,N
+2023-07-11T12:29:43Z,https://github.com/hashicorp/terraform/pull/33506,liamcervante,testing framework: finalise 'expected_failures' functionality,Y
+2023-07-11T09:37:06Z,https://github.com/hashicorp/terraform/pull/33504,liamcervante,testing framework: introduce test command optional flags,Y
+2023-07-11T08:55:09Z,https://github.com/hashicorp/terraform/pull/33503,liamcervante,Make flaky 'TestTest_DoubleInterrupt' test more robust,Y
+2023-07-10T19:00:49Z,https://github.com/hashicorp/terraform/pull/33501,apparentlymart,Start to integrate OpenTelemetry,Y
+2023-07-10T18:17:50Z,https://github.com/hashicorp/terraform/pull/33500,teamterraform,Backport of docs: Fix typo in connection.mdx into v1.5,Y
+2023-07-10T18:11:43Z,https://github.com/hashicorp/terraform/pull/33499,MusicDin,docs: Fix typo in connection.mdx,N
+2023-07-08T00:16:35Z,https://github.com/hashicorp/terraform/pull/33493,dependabot[bot],build(deps): bump tough-cookie from 4.1.2 to 4.1.3 in /website,Y
+2023-07-07T23:17:42Z,https://github.com/hashicorp/terraform/pull/33492,nfagerlund,Implement saved cloud plans,Y
+2023-07-07T16:46:02Z,https://github.com/hashicorp/terraform/pull/33490,teamterraform,Backport of fix typo in terraform/internal/command /init.go into v1.5,Y
+2023-07-07T15:32:02Z,https://github.com/hashicorp/terraform/pull/33489,joekarl,Add ability to specify Terraform Cloud Project in cloud block,Y
+2023-07-07T13:44:47Z,https://github.com/hashicorp/terraform/pull/33488,teamterraform,Backport of always evaluate module outputs during destroy into v1.5,Y
+2023-07-06T21:22:44Z,https://github.com/hashicorp/terraform/pull/33486,jbardin,enable schema caching and add `get_provider_schema_optional` server capability,Y
+2023-07-06T20:14:23Z,https://github.com/hashicorp/terraform/pull/33485,teamterraform,Backport of go.mod: go get google.golang.org/grpc@v1.53.0 into v1.5,Y
+2023-07-06T16:01:00Z,https://github.com/hashicorp/terraform/pull/33484,apparentlymart,go.mod: go get google.golang.org/grpc@v1.53.0,Y
+2023-07-06T15:43:38Z,https://github.com/hashicorp/terraform/pull/33483,kmoe,command: test plan -refresh= arg ordering,Y
+2023-07-06T15:23:53Z,https://github.com/hashicorp/terraform/pull/33482,jbardin,Refactor providers.Schemas and add a global schema cache,Y
+2023-07-06T13:52:30Z,https://github.com/hashicorp/terraform/pull/33481,liamcervante,Add input validation into the custom conditions outputs and tracking,Y
+2023-07-06T09:49:48Z,https://github.com/hashicorp/terraform/pull/33479,mplzik,Unpack TF plugins in a more atomic way.,Y
+2023-07-05T21:34:15Z,https://github.com/hashicorp/terraform/pull/33478,dependabot[bot],build(deps): bump google.golang.org/grpc from 1.50.1 to 1.53.0,Y
+2023-07-05T13:53:40Z,https://github.com/hashicorp/terraform/pull/33477,liamcervante,testing framework: introduce interrupts for stopping tests,Y
+2023-07-05T09:11:24Z,https://github.com/hashicorp/terraform/pull/33476,teamterraform,Backport of Plan renderer: Support users indexing integer paths with stringified numbers into v1.5,Y
+2023-07-05T08:40:56Z,https://github.com/hashicorp/terraform/pull/33475,liamcervante,Plan renderer: Support users indexing integer paths with stringified numbers,Y
+2023-07-03T14:48:35Z,https://github.com/hashicorp/terraform/pull/33469,siketyan,feat: Migrate S3 backend to AWS SDK for Go v2,N
+2023-07-03T09:51:33Z,https://github.com/hashicorp/terraform/pull/33466,liamcervante,[testing framework] allow tests to define and override providers,Y
+69,14,20.28%,,
+2023-06-30T20:59:16Z,https://github.com/hashicorp/terraform/pull/33463,brandonc,Integrate terraform cloudplugin protocol and client,Y
+2023-06-30T19:33:18Z,https://github.com/hashicorp/terraform/pull/33462,jbardin,always evaluate module outputs during destroy,Y
+2023-06-30T18:59:31Z,https://github.com/hashicorp/terraform/pull/33461,varshneydevansh,Update azurerm.mdx for subscription_id parameter in Azure CLI,N
+2023-06-30T13:54:59Z,https://github.com/hashicorp/terraform/pull/33459,alisdair,use multierror.Append instead of `append`,Y
+2023-06-30T13:53:39Z,https://github.com/hashicorp/terraform/pull/33458,alisdair,Backport 33108,Y
+2023-06-30T13:50:30Z,https://github.com/hashicorp/terraform/pull/33457,teamterraform,Backport of Return debuggable CAS errors on consul state put into v1.5,Y
+2023-06-30T13:21:51Z,https://github.com/hashicorp/terraform/pull/33456,liamcervante,[Testing Framework] Add module block to test run blocks,Y
+2023-06-30T09:29:55Z,https://github.com/hashicorp/terraform/pull/33454,liamcervante,[testing framework] Add documentation,Y
+2023-06-30T00:38:31Z,https://github.com/hashicorp/terraform/pull/33451,nfagerlund,Implement `terraform show` for cloud plan files,Y
+2023-06-29T20:39:46Z,https://github.com/hashicorp/terraform/pull/33448,agustinguayama,fix typo in terraform/internal/command /init.go,N
+2023-06-29T15:32:16Z,https://github.com/hashicorp/terraform/pull/33445,liamcervante,[testing framework] prepare for beta phase of development,Y
+2023-06-29T09:01:21Z,https://github.com/hashicorp/terraform/pull/33443,liamcervante,[testing framework] Implement expect_failures attribute functionality,Y
+2023-06-28T23:42:36Z,https://github.com/hashicorp/terraform/pull/33441,ctrombley,docs: dissociate CV from preconditions and postconditions,Y
+2023-06-28T08:01:47Z,https://github.com/hashicorp/terraform/pull/33436,liamcervante,Fix the Terraform build after recent merges,Y
+2023-06-27T18:25:54Z,https://github.com/hashicorp/terraform/pull/33435,teamterraform,Backport of configs: remove import block duplicate id check into v1.5,Y
+2023-06-27T15:04:38Z,https://github.com/hashicorp/terraform/pull/33434,kmoe,configs: remove import block duplicate id check,Y
+2023-06-26T20:58:36Z,https://github.com/hashicorp/terraform/pull/33433,chaosaffe,Remove PATH from GetCommand helpText,N
+2023-06-26T17:11:34Z,https://github.com/hashicorp/terraform/pull/33432,brandonc,Relocate localterraform.com aliasing to backend configurators ,Y
+2023-06-23T08:02:29Z,https://github.com/hashicorp/terraform/pull/33420,schwichti,Update configuration.mdx,N
+2023-06-23T00:03:43Z,https://github.com/hashicorp/terraform/pull/33418,nfagerlund,Implement `plan -out` with cloud integration,Y
+2023-06-22T22:19:03Z,https://github.com/hashicorp/terraform/pull/33417,lorengordon,Fixes  small typo on providers lock documentation,N
+2023-06-22T18:17:10Z,https://github.com/hashicorp/terraform/pull/33416,apparentlymart,plans/objchange: Support nested unknowns in our unrefinedValue shim,Y
+2023-06-22T17:16:58Z,https://github.com/hashicorp/terraform/pull/33415,brandonc,[Chore] go mod tidy,Y
+2023-06-22T14:01:48Z,https://github.com/hashicorp/terraform/pull/33414,teamterraform,Backport of Reinstate the accidentally deleted experimental testing page into v1.5,Y
+2023-06-22T13:39:19Z,https://github.com/hashicorp/terraform/pull/33413,liamcervante,Reinstate the accidentally deleted experimental testing page,Y
+2023-06-22T13:26:39Z,https://github.com/hashicorp/terraform/pull/33412,teamterraform,Backport of Correct upgrade guide navigation heading for 1.5 into v1.5,Y
+2023-06-22T12:05:43Z,https://github.com/hashicorp/terraform/pull/33411,liamcervante,Correct upgrade guide navigation heading for 1.5,Y
+2023-06-21T14:58:28Z,https://github.com/hashicorp/terraform/pull/33406,liamcervante,Upgrade golang.org/x/crypto/openpgp to github.com/ProtonMail/go-crypto,Y
+2023-06-20T20:40:17Z,https://github.com/hashicorp/terraform/pull/33403,jbardin,connect references from config nodes during apply,Y
+2023-06-20T14:32:53Z,https://github.com/hashicorp/terraform/pull/33400,liamcervante,[Testing framework] Implement JSON view functionality for test command,Y
+2023-06-20T05:40:15Z,https://github.com/hashicorp/terraform/pull/33396,coderjoe,internal/backend/remote-state/azure: respect NextMarker,N
+2023-06-20T03:48:06Z,https://github.com/hashicorp/terraform/pull/33395,cuishuang,fix function name in comment,N
+2023-06-17T20:27:23Z,https://github.com/hashicorp/terraform/pull/33386,mmorel-35,ci(lint): setup dependabot,N
+2023-06-15T14:26:42Z,https://github.com/hashicorp/terraform/pull/33379,teamterraform,Backport of objchange: set length is unknown with partially known elements into v1.5,Y
+2023-06-15T14:25:04Z,https://github.com/hashicorp/terraform/pull/33378,jbardin,validate planned set sizes using refinements,Y
+2023-06-15T13:39:23Z,https://github.com/hashicorp/terraform/pull/33377,jbardin,objchange: set length is unknown with partially known elements,Y
+2023-06-14T22:13:51Z,https://github.com/hashicorp/terraform/pull/33372,andrewhickman,`terraform show -json`: Add Errored field to output for plan,N
+2023-06-14T14:37:03Z,https://github.com/hashicorp/terraform/pull/33367,teamterraform,Backport of go.mod: go get github.com/hashicorp/terraform-svchost@v0.1.1 into v1.5,Y
+2023-06-13T19:52:11Z,https://github.com/hashicorp/terraform/pull/33365,teamterraform,Backport of Update environment-variables.mdx into v1.5,Y
+2023-06-13T19:19:49Z,https://github.com/hashicorp/terraform/pull/33364,apparentlymart,go.mod: go get github.com/hashicorp/terraform-svchost@v0.1.1,Y
+2023-06-13T16:55:17Z,https://github.com/hashicorp/terraform/pull/33363,conorevans,enhancement: use MaxCost to reduce work done by didyoumean.NameSuggestion,N
+2023-06-13T08:47:54Z,https://github.com/hashicorp/terraform/pull/33361,teamterraform,Backport of Fix broken link in Checks documentation into v1.5,Y
+2023-06-13T08:38:41Z,https://github.com/hashicorp/terraform/pull/33360,liamcervante,Fix broken link in Checks documentation,Y
+2023-06-13T08:36:06Z,https://github.com/hashicorp/terraform/pull/33359,teamterraform,Backport of [Docs] fix: update broken links to `checks` section in Custom Conditions documentation into v1.5,Y
+2023-06-13T07:27:15Z,https://github.com/hashicorp/terraform/pull/33357,kieran-lowe,[Docs] fix: update broken links to `checks` section in Custom Conditions documentation,Y
+2023-06-12T19:35:07Z,https://github.com/hashicorp/terraform/pull/33353,teamterraform,Backport of backend/oss: Removes the deprecated warning for configuration variable assume_role into v1.5,Y
+2023-06-12T19:14:19Z,https://github.com/hashicorp/terraform/pull/33351,teamterraform,Backport of Update templatefile.mdx into v1.5,Y
+2023-06-12T09:34:11Z,https://github.com/hashicorp/terraform/pull/33346,jpluscplusm,Update environment-variables.mdx,N
+2023-06-12T08:34:54Z,https://github.com/hashicorp/terraform/pull/33345,liamcervante,Introduce dedicated validation functions for the testing scope,Y
+2023-06-11T05:28:31Z,https://github.com/hashicorp/terraform/pull/33344,ryuichi1208,setup-go version up to 4,N
+2023-06-10T00:45:33Z,https://github.com/hashicorp/terraform/pull/33343,conorevans,feat: check for presence of target resource in ChangedResources,N
+2023-06-09T18:21:36Z,https://github.com/hashicorp/terraform/pull/33342,teamterraform,Backport of Add missing preposition to sentence into v1.5,Y
+2023-06-09T15:26:42Z,https://github.com/hashicorp/terraform/pull/33341,bit-nibble-byte,Add missing preposition to sentence,N
+2023-06-09T14:15:58Z,https://github.com/hashicorp/terraform/pull/33340,teamterraform,Backport of website: plannable import docs into v1.5,Y
+2023-06-09T12:29:46Z,https://github.com/hashicorp/terraform/pull/33339,liamcervante,Introduce separate testing scope for reference validation,Y
+2023-06-09T07:26:24Z,https://github.com/hashicorp/terraform/pull/33338,Macaber,Update templatefile.mdx,N
+2023-06-09T06:59:01Z,https://github.com/hashicorp/terraform/pull/33337,teamterraform,Backport of Adding links to the Checks tutorial and fixing headers. into v1.5,Y
+2023-06-08T23:35:00Z,https://github.com/hashicorp/terraform/pull/33336,brandonc,"cloud: when saving state, utilize new 'pending' state version",Y
+2023-06-08T18:48:51Z,https://github.com/hashicorp/terraform/pull/33334,teamterraform,Backport of Update variables.mdx into v1.5,Y
+2023-06-07T20:30:35Z,https://github.com/hashicorp/terraform/pull/33328,rkoron007,Adding links to the Checks tutorial and fixing headers.,Y
+2023-06-07T12:39:05Z,https://github.com/hashicorp/terraform/pull/33327,liamcervante,[Testing Framework] Add test command to Terraform CLI,Y
+2023-06-07T12:19:41Z,https://github.com/hashicorp/terraform/pull/33326,liamcervante,[Testing Framework] Adds TestContext for evaluating test assertions,Y
+2023-06-07T11:39:52Z,https://github.com/hashicorp/terraform/pull/33325,liamcervante,[Testing Framework] Add test file HCL configuration and parser functionality,Y
+2023-06-07T11:24:01Z,https://github.com/hashicorp/terraform/pull/33324,liamcervante,[Testing Framework] Add test structure to views package for rendering test output,Y
+2023-06-07T11:18:38Z,https://github.com/hashicorp/terraform/pull/33323,liamcervante,[Testing Framework] Remove implementation of the old experimental framework,Y
+2023-06-06T06:10:31Z,https://github.com/hashicorp/terraform/pull/33318,liamcervante,"Manual backport of ""Add documentation page for checks and assertions"" into v1.5",Y
+2023-06-06T06:06:26Z,https://github.com/hashicorp/terraform/pull/33317,teamterraform,Backport of Add documentation page for checks and assertions into v1.5,Y
+2023-06-05T12:53:54Z,https://github.com/hashicorp/terraform/pull/33313,teamterraform,Backport of views: fix wordwrap bug into v1.5,Y
+2023-06-05T10:41:08Z,https://github.com/hashicorp/terraform/pull/33311,kmoe,views: fix wordwrap bug,Y
+2023-06-02T15:42:43Z,https://github.com/hashicorp/terraform/pull/33308,liamcervante,[backport] Delete check-legacy-links-format.yml,Y
+2023-06-02T15:35:52Z,https://github.com/hashicorp/terraform/pull/33307,teamterraform,Backport of Ensure nested data blocks execute last of all Terraform resources into v1.5,Y
+2023-06-02T11:46:25Z,https://github.com/hashicorp/terraform/pull/33305,slingamn,switch to ergochat/readline,N
+2023-06-01T14:33:54Z,https://github.com/hashicorp/terraform/pull/33301,liamcervante,Ensure nested data blocks execute last of all Terraform resources,Y
+73,17,23.28%,,
+2023-05-31T22:32:41Z,https://github.com/hashicorp/terraform/pull/33300,BRKalow,chore(docs): delete check-legacy-links-format.yml,Y
+2023-05-31T20:00:25Z,https://github.com/hashicorp/terraform/pull/33299,teamterraform,Backport of website: Terraform v1.5 upgrade guide into v1.5,Y
+2023-05-31T19:55:54Z,https://github.com/hashicorp/terraform/pull/33298,teamterraform,Backport of cloud: assert import block compatibility into v1.5,Y
+2023-05-31T19:42:59Z,https://github.com/hashicorp/terraform/pull/33297,teamterraform,Backport of command: help text for generate-config-out into v1.5,Y
+2023-05-31T19:25:32Z,https://github.com/hashicorp/terraform/pull/33296,teamterraform,Backport of terraform: expanded resources cannot genconfig into v1.5,Y
+2023-05-31T19:01:00Z,https://github.com/hashicorp/terraform/pull/33295,teamterraform,Backport of plannable import: allow writing generated config when using the cloud integration into v1.5,Y
+2023-05-31T16:57:50Z,https://github.com/hashicorp/terraform/pull/33294,apparentlymart,go.mod: go get github.com/hashicorp/hcl/v2@v2.17.0,Y
+2023-05-31T15:26:13Z,https://github.com/hashicorp/terraform/pull/33293,kmoe,terraform: expanded resources cannot genconfig,Y
+2023-05-31T04:32:43Z,https://github.com/hashicorp/terraform/pull/33291,Wasim101,Update variables.mdx,N
+2023-05-31T03:29:22Z,https://github.com/hashicorp/terraform/pull/33290,radditude,import block compatibility: init edition,Y
+2023-05-30T18:32:35Z,https://github.com/hashicorp/terraform/pull/33288,teamterraform,Backport of remove deprecated set-output call in gha into v1.5,Y
+2023-05-30T18:32:31Z,https://github.com/hashicorp/terraform/pull/33287,teamterraform,Backport of remove deprecated set-output call in gha into v1.4,Y
+2023-05-30T17:31:36Z,https://github.com/hashicorp/terraform/pull/33286,modrake,remove deprecated set-output call in gha,N
+2023-05-30T16:35:46Z,https://github.com/hashicorp/terraform/pull/33285,apparentlymart,website: Terraform v1.5 upgrade guide,Y
+2023-05-30T15:35:29Z,https://github.com/hashicorp/terraform/pull/33284,apparentlymart,Build with Go 1.20.4,Y
+2023-05-30T11:04:11Z,https://github.com/hashicorp/terraform/pull/33282,kmoe,cloud: assert import block compatibility,Y
+2023-05-30T09:13:07Z,https://github.com/hashicorp/terraform/pull/33279,kmoe,command: help text for generate-config-out,Y
+2023-05-30T07:28:48Z,https://github.com/hashicorp/terraform/pull/33278,radditude,plannable import: allow writing generated config when using the cloud integration,Y
+2023-05-28T07:19:16Z,https://github.com/hashicorp/terraform/pull/33274,davendu,docs/backends/cos: add necessary permission list for using the backend,N
+2023-05-26T20:36:14Z,https://github.com/hashicorp/terraform/pull/33270,nfagerlund,Apply a confirmable run when given a saved cloud plan,Y
+2023-05-26T17:25:04Z,https://github.com/hashicorp/terraform/pull/33268,laurenolivia,[TF-6793]add error handling to save/load fn,N
+2023-05-26T14:38:35Z,https://github.com/hashicorp/terraform/pull/33267,sebasslash,[cloud] Add interval header check to enable snapshots,Y
+2023-05-26T14:02:23Z,https://github.com/hashicorp/terraform/pull/33266,kmoe,website: plannable import docs,Y
+2023-05-26T00:24:33Z,https://github.com/hashicorp/terraform/pull/33263,nfagerlund,Move SavedPlanBookmark to dedicated `internal/cloud/cloudplan` package,Y
+2023-05-24T11:58:45Z,https://github.com/hashicorp/terraform/pull/33256,teamterraform,Backport of Propagate generated config filename into the Terraform graph into v1.5,Y
+2023-05-24T11:30:47Z,https://github.com/hashicorp/terraform/pull/33255,liamcervante,Propagate generated config filename into the Terraform graph,Y
+2023-05-24T10:58:54Z,https://github.com/hashicorp/terraform/pull/33254,teamterraform,Backport of Remove destroy-plan locals only referenced by root outputs into v1.5,Y
+2023-05-24T10:16:40Z,https://github.com/hashicorp/terraform/pull/33253,teamterraform,Backport of plannable import: safer config generation and schema filters into v1.5,Y
+2023-05-23T22:26:10Z,https://github.com/hashicorp/terraform/pull/33251,teamterraform,Backport of cloud: Allow Terraform Cloud/Enterprise to apply backpressure to intermediate state snapshots into v1.5,Y
+2023-05-23T19:35:57Z,https://github.com/hashicorp/terraform/pull/33250,tbehling,"Bump all GitHub Actions and pin, to avoid deprecated Node 12",N
+2023-05-23T17:57:03Z,https://github.com/hashicorp/terraform/pull/33249,teamterraform,Backport of udpate go-cty into v1.5,Y
+2023-05-23T17:36:37Z,https://github.com/hashicorp/terraform/pull/33247,teamterraform,Backport of plannable import: correct plumbing when using a plan output file into v1.5,Y
+2023-05-23T17:14:55Z,https://github.com/hashicorp/terraform/pull/33246,kailashkhalasi,upgrade go version ,N
+2023-05-23T15:40:05Z,https://github.com/hashicorp/terraform/pull/33245,jbardin,v1.5 backport of validate unknown nested attribute collections,Y
+2023-05-23T12:18:40Z,https://github.com/hashicorp/terraform/pull/33243,lukaevet,Update Go Toolchain and code checkout version,N
+2023-05-23T11:18:31Z,https://github.com/hashicorp/terraform/pull/33241,liamcervante,Add documentation page for checks and assertions,Y
+2023-05-23T05:25:53Z,https://github.com/hashicorp/terraform/pull/33238,radditude,plannable import: correct plumbing when using a plan output file,Y
+2023-05-22T17:11:15Z,https://github.com/hashicorp/terraform/pull/33235,jbardin,Remove destroy-plan locals only referenced by root outputs,Y
+2023-05-22T16:22:17Z,https://github.com/hashicorp/terraform/pull/33234,apparentlymart,"Refined Unknown Values, allowing some operations with unknown values to produce known results",Y
+2023-05-22T16:04:01Z,https://github.com/hashicorp/terraform/pull/33233,tejavar,Update archiving.mdx ,N
+2023-05-22T09:56:18Z,https://github.com/hashicorp/terraform/pull/33232,kmoe,plannable import: safer config generation and schema filters,Y
+2023-05-22T09:36:57Z,https://github.com/hashicorp/terraform/pull/33231,OriHoch,fix uuid documentation: it is not RFC compatible,Y
+2023-05-20T02:14:08Z,https://github.com/hashicorp/terraform/pull/33229,ben-z,Add `prevent_removal` lifecycle flag as a stronger version of `prevent_destroy`,Y
+2023-05-19T20:48:03Z,https://github.com/hashicorp/terraform/pull/33227,teamterraform,Backport of Fix an error message for import block with moved block into v1.5,Y
+2023-05-19T18:32:47Z,https://github.com/hashicorp/terraform/pull/33225,teamterraform,Backport of genconfig: do not generate null NestingSingle blocks into v1.5,Y
+2023-05-19T17:38:40Z,https://github.com/hashicorp/terraform/pull/33224,jbardin,udpate go-cty,Y
+2023-05-19T14:07:00Z,https://github.com/hashicorp/terraform/pull/33221,minamijoyo,Fix an error message for import block with moved block,N
+2023-05-17T21:03:06Z,https://github.com/hashicorp/terraform/pull/33213,kmoe,genconfig: do not generate null NestingSingle blocks,Y
+2023-05-17T08:42:33Z,https://github.com/hashicorp/terraform/pull/33208,xiaozhu36,backend/oss: Removes the deprecated warning for configuration variable assume_role,N
+2023-05-16T03:24:11Z,https://github.com/hashicorp/terraform/pull/33199,kmoe,plannable import: remove timeouts from genconfig schema,Y
+2023-05-15T16:04:19Z,https://github.com/hashicorp/terraform/pull/33196,hashicorp-copywrite[bot],[COMPLIANCE] Add Copyright and License Headers,Y
+2023-05-14T17:14:34Z,https://github.com/hashicorp/terraform/pull/33194,kmoe,plannable import: improve gen config human plan output,Y
+2023-05-12T23:07:08Z,https://github.com/hashicorp/terraform/pull/33193,radditude,plannable import: disallow import blocks in child modules,Y
+2023-05-12T22:37:09Z,https://github.com/hashicorp/terraform/pull/33192,kmoe,plannable import: error if importing to a move source,Y
+2023-05-12T20:54:34Z,https://github.com/hashicorp/terraform/pull/33191,kmoe,plannable import: error if importing to invalid keyed address,Y
+2023-05-12T20:33:44Z,https://github.com/hashicorp/terraform/pull/33190,radditude,validate duplicate import blocks,Y
+2023-05-12T15:46:54Z,https://github.com/hashicorp/terraform/pull/33189,kmoe,Changelog: plannable import,Y
+2023-05-12T10:36:48Z,https://github.com/hashicorp/terraform/pull/33188,kmoe,terraform: config-driven import is idempotent,Y
+2023-05-11T18:15:06Z,https://github.com/hashicorp/terraform/pull/33186,liamcervante,plannable import: write generated config to out flag,Y
+2023-05-11T14:43:45Z,https://github.com/hashicorp/terraform/pull/33185,laurenolivia,codify saved plan artifact contents,Y
+2023-05-11T11:36:14Z,https://github.com/hashicorp/terraform/pull/33184,liamcervante,Don't mark check results as experimental in JSON outputs.,Y
+2023-05-11T11:10:04Z,https://github.com/hashicorp/terraform/pull/33183,liamcervante,plannable import: fix config gen printing empty collections in place of nulls,Y
+2023-05-11T09:23:19Z,https://github.com/hashicorp/terraform/pull/33181,liamcervante,plannable import: write generated config during plan operation,Y
+2023-05-11T00:05:45Z,https://github.com/hashicorp/terraform/pull/33180,apparentlymart,"website: Clarify what the ""any"" type constraint placeholder is for",Y
+2023-05-10T22:17:09Z,https://github.com/hashicorp/terraform/pull/33179,teamterraform,Backport of Update fmt.mdx to include missing period / full stop into v1.4,Y
+2023-05-10T13:52:36Z,https://github.com/hashicorp/terraform/pull/33177,bshramin,Skip flag if flag value is empty,N
+2023-05-10T11:23:55Z,https://github.com/hashicorp/terraform/pull/33175,liamcervante,plannable import: add a provider argument to the import block,Y
+2023-05-10T10:01:57Z,https://github.com/hashicorp/terraform/pull/33173,sarahethompson,release updates,Y
+2023-05-10T09:45:19Z,https://github.com/hashicorp/terraform/pull/33172,stefkiourk,Update fmt.mdx to include missing period / full stop,N
+2023-05-10T09:01:47Z,https://github.com/hashicorp/terraform/pull/33171,liamcervante,"Revert ""Plannable import: Make the streamed logs more consistent during planning""",Y
+2023-05-09T10:00:23Z,https://github.com/hashicorp/terraform/pull/33166,liamcervante,plannable import: write out generated config during apply stage,Y
+2023-05-09T00:27:46Z,https://github.com/hashicorp/terraform/pull/33165,teamterraform,Backport of docs: Update command to match /cli/commands/taint -replace cmd into v1.4,Y
+2023-05-08T23:13:01Z,https://github.com/hashicorp/terraform/pull/33164,apparentlymart,build: Generate copyright headers automatically,Y
+2023-05-08T20:29:45Z,https://github.com/hashicorp/terraform/pull/33163,teamterraform,Backport of docs: Clarify doc reference into v1.4,Y
+2023-05-08T20:21:26Z,https://github.com/hashicorp/terraform/pull/33162,BrianMMcClain,docs: Clarify doc reference,Y
+2023-05-08T16:03:58Z,https://github.com/hashicorp/terraform/pull/33161,hashicorp-copywrite[bot],[COMPLIANCE] Add Copyright and License Headers,Y
+2023-05-07T03:43:25Z,https://github.com/hashicorp/terraform/pull/33160,radditude,Populate import counts during applies and clean up output,Y
+2023-05-06T21:12:33Z,https://github.com/hashicorp/terraform/pull/33159,K8sKween,docs: Update command to match /cli/commands/taint -replace cmd,N
+2023-05-06T07:44:20Z,https://github.com/hashicorp/terraform/pull/33158,rodrigodealer,Bump golang.org/x/text to v0.9.0,N
+2023-05-05T12:07:58Z,https://github.com/hashicorp/terraform/pull/33155,liamcervante,Plannable import: Make the streamed logs more consistent during planning,Y
+2023-05-05T11:28:04Z,https://github.com/hashicorp/terraform/pull/33154,liamcervante,Plannable import: Add generated config to JSON and human-readable plan output,Y
+2023-05-05T11:02:21Z,https://github.com/hashicorp/terraform/pull/33153,liamcervante,Plannable import: Generate config for imported resources during the plan.,Y
+2023-05-04T18:25:17Z,https://github.com/hashicorp/terraform/pull/33151,jbardin,Import: only refresh an imported state once,Y
+2023-05-04T15:44:38Z,https://github.com/hashicorp/terraform/pull/33149,reespozzi,Fix small typo in tf plan error,N
+2023-05-04T13:58:55Z,https://github.com/hashicorp/terraform/pull/33148,liamcervante,Add config generation outout to JSON streamed logs and human readable plan,Y
+2023-05-04T12:59:07Z,https://github.com/hashicorp/terraform/pull/33147,liamcervante,Imports should come before Adds in change summaries,Y
+2023-05-04T11:17:26Z,https://github.com/hashicorp/terraform/pull/33145,liamcervante,example of working renderer,Y
+2023-05-03T16:32:25Z,https://github.com/hashicorp/terraform/pull/33142,liamcervante,WIP: plannable import config generation,Y
+2023-05-03T16:25:56Z,https://github.com/hashicorp/terraform/pull/33141,jbardin,Add Config to ImportResourceState,Y
+2023-05-02T10:02:49Z,https://github.com/hashicorp/terraform/pull/33135,0xchabbi,Update index.mdx,N
+2023-05-02T09:33:00Z,https://github.com/hashicorp/terraform/pull/33134,liamcervante,[plannable import] embed the resource id within the changes,Y
+2023-05-02T01:43:45Z,https://github.com/hashicorp/terraform/pull/33132,briskt,clarify types and link to Type Constraints pagedit types,N
+2023-05-01T20:50:37Z,https://github.com/hashicorp/terraform/pull/33131,rolandshoemaker,internal/getproviders: switch to ProtonMail/go-crypto/openpgp,N
+93,21,22.58%,,
+2023-04-30T23:48:15Z,https://github.com/hashicorp/terraform/pull/33129,vravind1,Link to plugin-framework tutorial,Y
+2023-04-30T17:54:55Z,https://github.com/hashicorp/terraform/pull/33128,kuddusibaba,key added,N
+2023-04-30T17:37:31Z,https://github.com/hashicorp/terraform/pull/33127,kuddusibaba,Update s3.mdx,N
+2023-04-30T17:34:12Z,https://github.com/hashicorp/terraform/pull/33126,kuddusibaba,added access,N
+2023-04-30T17:25:41Z,https://github.com/hashicorp/terraform/pull/33125,kuddusibaba,Update s3.mdx,N
+2023-04-28T23:37:11Z,https://github.com/hashicorp/terraform/pull/33120,kmoe,Plannable import: Generate config,Y
+2023-04-28T22:25:10Z,https://github.com/hashicorp/terraform/pull/33119,willfaught,Change separating to grouping,Y
+2023-04-28T14:27:25Z,https://github.com/hashicorp/terraform/pull/33116,liamcervante,Migrate 'state show'  command to new renderer,Y
+2023-04-28T12:56:29Z,https://github.com/hashicorp/terraform/pull/33115,robertbrandso,Corrected example in documentation,N
+2023-04-28T09:57:59Z,https://github.com/hashicorp/terraform/pull/33113,liamcervante,[Plannable Import] Implement human-readable plan rendering,Y
+2023-04-27T16:10:30Z,https://github.com/hashicorp/terraform/pull/33108,unRob,Return debuggable CAS errors on consul state put,N
+2023-04-27T15:56:23Z,https://github.com/hashicorp/terraform/pull/33107,RobertKeyser,Documentation: Fix incorrect assertion that CIDR notation is only valid for ipv6,N
+2023-04-27T13:47:42Z,https://github.com/hashicorp/terraform/pull/33106,liamcervante,[Plannable Import] Implement streamed logs for plan,Y
+2023-04-27T08:21:56Z,https://github.com/hashicorp/terraform/pull/33104,hashicorp-tsccr[bot],SEC-090: Automated trusted workflow pinning (2023-04-27),Y
+2023-04-26T22:28:42Z,https://github.com/hashicorp/terraform/pull/33103,apparentlymart,build: Slightly broader copyright holder in copyright notices,Y
+2023-04-26T22:26:58Z,https://github.com/hashicorp/terraform/pull/33102,teamterraform,Backport of Adding additional entry necessary to generate docs. into v1.4,Y
+2023-04-26T22:11:05Z,https://github.com/hashicorp/terraform/pull/33101,crw,Adding additional entry necessary to generate docs.,Y
+2023-04-26T21:44:59Z,https://github.com/hashicorp/terraform/pull/33100,teamterraform,Backport of Update README.md into v1.4,Y
+2023-04-26T20:40:11Z,https://github.com/hashicorp/terraform/pull/33099,alisdair,"Configure copywrite to ignore protobuf, stringer, mockgen output",Y
+2023-04-26T18:34:17Z,https://github.com/hashicorp/terraform/pull/33096,alisdair,Fix goimports discrepancies,Y
+2023-04-26T18:26:10Z,https://github.com/hashicorp/terraform/pull/33095,smacfarlane,Disable reproducability check in actions-go-build,N
+2023-04-26T18:00:53Z,https://github.com/hashicorp/terraform/pull/33094,alisdair,Configure copywrite to ignore testdata,Y
+2023-04-26T15:14:46Z,https://github.com/hashicorp/terraform/pull/33092,0xchabbi,Update README.md,N
+2023-04-26T13:56:04Z,https://github.com/hashicorp/terraform/pull/33091,liamcervante,[Plannable Import] Implement the plannable import plan rendering,Y
+2023-04-25T21:11:24Z,https://github.com/hashicorp/terraform/pull/33089,dependabot[bot],Bump yaml from 2.2.1 to 2.2.2 in /website,Y
+2023-04-24T19:29:36Z,https://github.com/hashicorp/terraform/pull/33085,kmoe,Plannable import 3: Make import plannable,Y
+2023-04-24T19:12:58Z,https://github.com/hashicorp/terraform/pull/33084,laurenolivia,[TF-5829]add resource_drift JSONLogType,N
+2023-04-24T18:22:11Z,https://github.com/hashicorp/terraform/pull/33082,kmoe,Plannable import 2: Render import changes (command/views and command/jsonformat),Y
+2023-04-24T18:18:23Z,https://github.com/hashicorp/terraform/pull/33081,kmoe,Plannable import 1: Add import block (configs),Y
+2023-04-24T18:15:29Z,https://github.com/hashicorp/terraform/pull/33080,kmoe,Plannable import 0: Add plannable import types,Y
+2023-04-24T16:18:25Z,https://github.com/hashicorp/terraform/pull/33079,jbardin,skip inter-provider cycle check in destroy plan,Y
+2023-04-24T09:02:49Z,https://github.com/hashicorp/terraform/pull/33077,teamterraform,Backport of Make the unknown attribute renderer consider the force replacement metadata into v1.4,Y
+2023-04-24T08:53:03Z,https://github.com/hashicorp/terraform/pull/33076,teamterraform,Backport of Include sensitive metadata from the schema when building the json state output into v1.4,Y
+2023-04-24T08:28:38Z,https://github.com/hashicorp/terraform/pull/33075,teamterraform,Backport of Propagate unknown and sensitive metadata to dynamic attributes into v1.4,Y
+2023-04-22T17:51:17Z,https://github.com/hashicorp/terraform/pull/33073,oprudkyi,cli init: hide warning about incomplete lock,N
+2023-04-21T21:54:09Z,https://github.com/hashicorp/terraform/pull/33072,teamterraform,Backport of Remove incorrect space in doc into v1.4,Y
+2023-04-21T13:52:36Z,https://github.com/hashicorp/terraform/pull/33069,Cliftonz,Feat: Add strcontains function and documentation,N
+2023-04-21T07:52:14Z,https://github.com/hashicorp/terraform/pull/33066,teamterraform,Backport of Refactor of differ to make code reuse easier into v1.4,Y
+2023-04-21T07:23:54Z,https://github.com/hashicorp/terraform/pull/33065,liamcervante,Make the unknown attribute renderer consider the force replacement metadata,Y
+2023-04-21T03:31:05Z,https://github.com/hashicorp/terraform/pull/33064,willfaught,Remove incorrect space in doc,N
+2023-04-20T22:48:50Z,https://github.com/hashicorp/terraform/pull/33062,oprudkyi,gcs backend: fix race condition on locking,N
+2023-04-20T14:20:48Z,https://github.com/hashicorp/terraform/pull/33059,liamcervante,Include sensitive metadata from the schema when building the json state output,Y
+2023-04-20T12:45:45Z,https://github.com/hashicorp/terraform/pull/33057,liamcervante,Propagate unknown and sensitive metadata to dynamic attributes,Y
+2023-04-20T08:44:28Z,https://github.com/hashicorp/terraform/pull/33054,liamcervante,Refactor of differ to make code reuse easier,Y
+2023-04-19T15:24:43Z,https://github.com/hashicorp/terraform/pull/33053,jbardin,Add all known resource types to the ConfigureProvider call,Y
+2023-04-17T18:12:05Z,https://github.com/hashicorp/terraform/pull/33047,jbardin,prune unused providers within modules,Y
+2023-04-17T17:46:39Z,https://github.com/hashicorp/terraform/pull/33046,Dmitry-White,Add a default value for networks variable for flatten example,N
+2023-04-17T10:44:58Z,https://github.com/hashicorp/terraform/pull/33045,remilapeyre,Improve environment variable support for the pg backend,N
+2023-04-17T09:08:10Z,https://github.com/hashicorp/terraform/pull/33043,liamcervante,Manual backport of #32959,Y
+2023-04-17T07:18:37Z,https://github.com/hashicorp/terraform/pull/33042,liamcervante,Manual backport of #33018,Y
+2023-04-14T11:22:07Z,https://github.com/hashicorp/terraform/pull/33037,FalcoSuessgott,feat(ipincidr): add ipincidr function,N
+2023-04-14T10:10:59Z,https://github.com/hashicorp/terraform/pull/33035,liamcervante,Trigger equivalence tests and automated TFC staging update through CRT,Y
+2023-04-14T07:56:50Z,https://github.com/hashicorp/terraform/pull/33033,teamterraform,Backport of Fix rendering unknown values in map and null string primitives into v1.4,Y
+2023-04-13T15:40:47Z,https://github.com/hashicorp/terraform/pull/33029,liamcervante,Fix rendering unknown values in map and null string primitives,Y
+2023-04-12T06:37:42Z,https://github.com/hashicorp/terraform/pull/33020,glennsarti,Emit warnings for certain run events in cloud backend,Y
+2023-04-11T21:22:18Z,https://github.com/hashicorp/terraform/pull/33018,sebasslash,Prevent duplicate plan output for TFE releases that don't support SRO for CLI,Y
+2023-04-11T11:55:39Z,https://github.com/hashicorp/terraform/pull/33013,Harmelodic,Document new -or-create flag.,N
+2023-04-11T08:38:35Z,https://github.com/hashicorp/terraform/pull/33012,liamcervante,Add copywrite config file that excludes .tf extension,Y
+2023-04-07T18:36:52Z,https://github.com/hashicorp/terraform/pull/33003,hashicorp-copywrite[bot],[COMPLIANCE] Add Copyright and License Headers,Y
+2023-04-07T17:13:07Z,https://github.com/hashicorp/terraform/pull/33002,teamterraform,Backport of metadata_host param for AzureRM backend documentation into v1.4,Y
+2023-04-06T20:21:34Z,https://github.com/hashicorp/terraform/pull/33000,hibbertda,metadata_host param for AzureRM backend documentation,N
+2023-04-06T15:51:43Z,https://github.com/hashicorp/terraform/pull/32997,teamterraform,Backport of ci: Smoke test docker builds into v1.4,Y
+2023-04-06T13:54:11Z,https://github.com/hashicorp/terraform/pull/32995,teamterraform,Backport of the destroy plan should use correct type into v1.4,Y
+2023-04-05T16:30:40Z,https://github.com/hashicorp/terraform/pull/32990,dekimsey,ci: Smoke test docker builds,N
+2023-04-05T14:40:34Z,https://github.com/hashicorp/terraform/pull/32988,jbardin,the destroy plan should use correct type,Y
+2023-04-05T13:13:49Z,https://github.com/hashicorp/terraform/pull/32986,bflad,website: Add link to plugin logging page on debugging page,Y
+2023-04-05T08:08:58Z,https://github.com/hashicorp/terraform/pull/32984,liamcervante,checks: Add initial changelog entry for alpha release,Y
+2023-04-05T00:31:40Z,https://github.com/hashicorp/terraform/pull/32983,apparentlymart,cloud: Allow Terraform Cloud/Enterprise to apply backpressure to intermediate state snapshots,Y
+2023-04-04T17:18:49Z,https://github.com/hashicorp/terraform/pull/32982,teamterraform,Backport of comment out ironbank update in CI until it is set up into v1.4,Y
+2023-04-04T15:54:23Z,https://github.com/hashicorp/terraform/pull/32980,liamcervante,Add native `plantimestamp` function to Terraform,Y
+2023-04-04T15:21:37Z,https://github.com/hashicorp/terraform/pull/32979,alvin-huang,comment out ironbank update in CI until it is set up,Y
+2023-04-04T03:49:26Z,https://github.com/hashicorp/terraform/pull/32973,radditude,consolidate version information,Y
+2023-04-03T20:42:01Z,https://github.com/hashicorp/terraform/pull/32971,teamterraform,Backport of update apt install instructions into v1.4,Y
+2023-04-03T20:29:36Z,https://github.com/hashicorp/terraform/pull/32970,radditude,update apt install instructions,Y
+2023-04-03T08:22:59Z,https://github.com/hashicorp/terraform/pull/32968,liamcervante,post 1.4.4 update to prepare for 1.4.5,Y
+2023-04-02T19:09:20Z,https://github.com/hashicorp/terraform/pull/32967,tedivm,Fix templatefile argument type,N
+2023-04-02T02:35:20Z,https://github.com/hashicorp/terraform/pull/32965,kryslynn230,Create .devcontainer/devcontainer.json,N
+77,22,28.57%,,
+2023-03-31T18:19:26Z,https://github.com/hashicorp/terraform/pull/32962,jbardin,validate unknown nested attribute collections,Y
+2023-03-31T18:14:24Z,https://github.com/hashicorp/terraform/pull/32961,jbardin,"Revert ""don't compare plan marks for missing values""",Y
+2023-03-31T16:14:38Z,https://github.com/hashicorp/terraform/pull/32959,liamcervante,Add new actions for executing the equivalence tests after a CRT release,Y
+2023-03-30T19:17:09Z,https://github.com/hashicorp/terraform/pull/32955,radditude,make sure the build fails if cgo isn't being set correctly,Y
+2023-03-30T18:51:35Z,https://github.com/hashicorp/terraform/pull/32953,liamcervante,update changelog and version for v1.4.4,Y
+2023-03-30T18:45:19Z,https://github.com/hashicorp/terraform/pull/32952,teamterraform,Backport of ci: Correctly pass cgo_enabled=0 flag into v1.4,Y
+2023-03-30T18:40:29Z,https://github.com/hashicorp/terraform/pull/32951,dekimsey,ci: Correctly pass cgo_enabled=0 flag,N
+2023-03-30T18:38:23Z,https://github.com/hashicorp/terraform/pull/32950,teamterraform,Backport of Upload ECR image to correct ECR repo into v1.4,Y
+2023-03-30T18:00:57Z,https://github.com/hashicorp/terraform/pull/32949,liamcervante,Update CHANGELOG.md,Y
+2023-03-30T17:09:32Z,https://github.com/hashicorp/terraform/pull/32948,emilymianeil,Upload ECR image to correct ECR repo,Y
+2023-03-30T10:02:35Z,https://github.com/hashicorp/terraform/pull/32946,liamcervante,checks: always reference the nested data source from the check graph node,Y
+2023-03-29T19:54:20Z,https://github.com/hashicorp/terraform/pull/32942,emilymianeil,Add depends block for promote-staging + add promote-staging-packaging,Y
+2023-03-29T19:18:28Z,https://github.com/hashicorp/terraform/pull/32941,emilymianeil,Add depends block for promote-staging + add promote-staging-packaging,Y
+2023-03-29T12:52:16Z,https://github.com/hashicorp/terraform/pull/32938,liamcervante,checks: hide check diagnostics during plans that will not wait for approval,Y
+2023-03-28T20:05:04Z,https://github.com/hashicorp/terraform/pull/32935,jbardin,Backport of don't compare plan marks for missing values into v1.4,Y
+2023-03-28T20:01:25Z,https://github.com/hashicorp/terraform/pull/32934,teamterraform,Backport of don't compare plan marks for missing values into v1.4,Y
+2023-03-28T19:51:19Z,https://github.com/hashicorp/terraform/pull/32933,teamterraform,Backport of Remove planned data source objects from state on error into v1.4,Y
+2023-03-28T19:51:01Z,https://github.com/hashicorp/terraform/pull/32932,teamterraform,Backport of External changes report can fail with schema migrations and `-target` into v1.4,Y
+2023-03-28T17:40:11Z,https://github.com/hashicorp/terraform/pull/32931,teamterraform,Backport of Releng/migrate common release tooling into v1.4,Y
+2023-03-28T15:58:21Z,https://github.com/hashicorp/terraform/pull/32929,germamef,new change README,N
+2023-03-28T13:41:36Z,https://github.com/hashicorp/terraform/pull/32928,finnag,Write safely to the shared plugin cache,N
+2023-03-28T13:38:26Z,https://github.com/hashicorp/terraform/pull/32927,liamcervante,checks: don't iterate through all the nodes when there is nothing to search for,Y
+2023-03-28T12:44:53Z,https://github.com/hashicorp/terraform/pull/32925,liamcervante,checks: ensure checks are reported before executed,Y
+2023-03-27T09:32:32Z,https://github.com/hashicorp/terraform/pull/32921,liamcervante,checks: include the checks as part of the config within the JSON plan,Y
+2023-03-24T19:45:28Z,https://github.com/hashicorp/terraform/pull/32916,bflad,v1.4: website: Minor fixes to Provisioners Without a Resource page,Y
+2023-03-24T16:13:05Z,https://github.com/hashicorp/terraform/pull/32914,teamterraform,Backport of website: Minor fixes to Provisioners Without a Resource page into v1.4,Y
+2023-03-24T14:38:29Z,https://github.com/hashicorp/terraform/pull/32913,liamcervante,checks: don't consolidate warnings produced by checks,Y
+2023-03-24T12:41:31Z,https://github.com/hashicorp/terraform/pull/32911,liamcervante,checks: don't raise diagnostics for checks during an auto approved plan operation,Y
+2023-03-23T19:54:49Z,https://github.com/hashicorp/terraform/pull/32909,bucs-fan813,testing dos2unix arg,N
+2023-03-21T22:31:53Z,https://github.com/hashicorp/terraform/pull/32903,teamterraform,Backport of Feature/doc change into v1.4,Y
+2023-03-21T17:59:41Z,https://github.com/hashicorp/terraform/pull/32902,teamterraform,Backport of Store all sensitive marks for non-root module outputs in state into v1.4,Y
+2023-03-21T17:05:34Z,https://github.com/hashicorp/terraform/pull/32900,jbardin,External changes report can fail with schema migrations and `-target`,Y
+2023-03-21T13:53:50Z,https://github.com/hashicorp/terraform/pull/32898,bflad,website: Minor fixes to Provisioners Without a Resource page,Y
+2023-03-21T12:30:36Z,https://github.com/hashicorp/terraform/pull/32896,liamcervante,Checks: include any references for failed checks in the outputs,Y
+2023-03-20T23:44:55Z,https://github.com/hashicorp/terraform/pull/32895,teamterraform,Backport of Spelling update into v1.4,Y
+2023-03-20T22:53:09Z,https://github.com/hashicorp/terraform/pull/32894,teamterraform,Backport of Correct docs on Configuration Directory into v1.4,Y
+2023-03-20T21:53:52Z,https://github.com/hashicorp/terraform/pull/32893,teamterraform,Backport of trivial grammar fix in BUGPROCESS.md into v1.4,Y
+2023-03-20T20:35:38Z,https://github.com/hashicorp/terraform/pull/32892,jbardin,don't compare plan marks for missing values,Y
+2023-03-20T18:22:17Z,https://github.com/hashicorp/terraform/pull/32891,jbardin,Store all sensitive marks for non-root module outputs in state,Y
+2023-03-20T15:58:15Z,https://github.com/hashicorp/terraform/pull/32889,Nathan12399,Feature/doc change,N
+2023-03-19T12:14:19Z,https://github.com/hashicorp/terraform/pull/32884,DocAdam,Spelling update,N
+2023-03-18T21:14:35Z,https://github.com/hashicorp/terraform/pull/32883,ChannyClaus,trivial grammar fix in BUGPROCESS.md,N
+2023-03-18T20:24:41Z,https://github.com/hashicorp/terraform/pull/32882,ChristopherHackett,Correct docs on Configuration Directory,N
+2023-03-18T14:23:02Z,https://github.com/hashicorp/terraform/pull/32881,ChristopherHackett,Correct heading of usecase,N
+2023-03-17T22:18:47Z,https://github.com/hashicorp/terraform/pull/32879,teamterraform,Backport of Update settings.mdx into v1.4,Y
+2023-03-17T16:07:43Z,https://github.com/hashicorp/terraform/pull/32877,DocAdam,Update settings.mdx,N
+2023-03-17T12:51:23Z,https://github.com/hashicorp/terraform/pull/32876,jbardin,Remove planned data source objects from state on error,Y
+2023-03-16T15:49:29Z,https://github.com/hashicorp/terraform/pull/32870,alisdair,go.mod: Revert cty minor version v1.13 upgrade,Y
+2023-03-16T15:35:41Z,https://github.com/hashicorp/terraform/pull/32869,BRKalow,"docs: fix up content issues, add content-check command",Y
+2023-03-15T23:15:26Z,https://github.com/hashicorp/terraform/pull/32860,apparentlymart,Revert cty minor version v1.13 upgrade,Y
+2023-03-15T19:55:12Z,https://github.com/hashicorp/terraform/pull/32857,amandabasara,PR under 1.4 this time.,Y
+2023-03-15T19:43:25Z,https://github.com/hashicorp/terraform/pull/32856,teamterraform,Backport of Update index.mdx New PR for pinning providers into v1.4,Y
+2023-03-15T19:01:27Z,https://github.com/hashicorp/terraform/pull/32855,amandabasara,Update index.mdx New PR for pinning providers,Y
+2023-03-15T15:54:59Z,https://github.com/hashicorp/terraform/pull/32854,apparentlymart,core: Fix test flake in TestContext2Apply_stop,Y
+2023-03-14T18:59:07Z,https://github.com/hashicorp/terraform/pull/32847,teamterraform,Backport of emit a warning msg if invalid CLI configuration file location into v1.4,Y
+2023-03-14T18:52:32Z,https://github.com/hashicorp/terraform/pull/32846,jbardin,emit a warning msg if invalid CLI configuration file location,Y
+2023-03-14T18:28:26Z,https://github.com/hashicorp/terraform/pull/32845,teamterraform,Backport of Prevent nil Colorize options when rendering state outputs into v1.4,Y
+2023-03-14T16:49:15Z,https://github.com/hashicorp/terraform/pull/32843,teamterraform,Backport of Add TFC to state doc into v1.4,Y
+2023-03-14T14:11:07Z,https://github.com/hashicorp/terraform/pull/32840,jbardin,Prevent nil Colorize options when rendering state outputs,Y
+2023-03-13T22:46:01Z,https://github.com/hashicorp/terraform/pull/32836,judithpatudith,Add TFC to state doc,Y
+2023-03-13T12:35:37Z,https://github.com/hashicorp/terraform/pull/32831,ehud-eshet,Performance - Allow a single import command to import multiple resources,N
+2023-03-11T21:39:51Z,https://github.com/hashicorp/terraform/pull/32827,jasminengan,Deprecate io/ioutil usage,N
+2023-03-11T09:03:01Z,https://github.com/hashicorp/terraform/pull/32825,iKunal-Singh,"Fix punctuation, spelling mistakes, preposition and article usage in terraform CLI documentation ",N
+2023-03-10T15:20:03Z,https://github.com/hashicorp/terraform/pull/32822,teamterraform,Backport of Fix no-op outputs causing the plan renderer to skip the 'no changes' message into v1.4,Y
+2023-03-10T15:15:02Z,https://github.com/hashicorp/terraform/pull/32821,lonegunmanb,Fix potential nil panic in azure remote state,N
+2023-03-10T15:07:27Z,https://github.com/hashicorp/terraform/pull/32820,liamcervante,Fix no-op outputs causing the plan renderer to skip the 'no changes' message,Y
+2023-03-10T14:47:11Z,https://github.com/hashicorp/terraform/pull/32819,teamterraform,Backport of return early from opPlan when the plan is nil into v1.4,Y
+2023-03-10T14:37:59Z,https://github.com/hashicorp/terraform/pull/32818,jbardin,return early from opPlan when the plan is nil,Y
+2023-03-09T18:12:54Z,https://github.com/hashicorp/terraform/pull/32814,ashleemboyer,Update check-legacy-links-format.yml,Y
+2023-03-09T16:23:46Z,https://github.com/hashicorp/terraform/pull/32811,teamterraform,Backport of 1.4 upgrade change into v1.4,Y
+2023-03-09T13:30:17Z,https://github.com/hashicorp/terraform/pull/32807,teamterraform,Backport of Update HCL to handle type mismatches when applying defaults into v1.4,Y
+2023-03-09T10:53:31Z,https://github.com/hashicorp/terraform/pull/32806,teamterraform,Backport of Fixes overriding modules which have depends_on attribute set into v1.4,Y
+2023-03-09T01:17:46Z,https://github.com/hashicorp/terraform/pull/32803,mrinalirao,Add missing changelog entries for OPA support and bug fix on the CLI,Y
+2023-03-08T15:36:34Z,https://github.com/hashicorp/terraform/pull/32802,jongwooo,Replace deprecated `set-output` command with environment file,N
+2023-03-08T14:58:06Z,https://github.com/hashicorp/terraform/pull/32801,omarismail,1.4 upgrade change,Y
+2023-03-07T21:53:51Z,https://github.com/hashicorp/terraform/pull/32798,teamterraform,Backport of Update upgrade guide 1.4 into v1.4,Y
+2023-03-07T20:07:55Z,https://github.com/hashicorp/terraform/pull/32797,emilymianeil,Releng/migrate common release tooling,Y
+2023-03-07T19:07:25Z,https://github.com/hashicorp/terraform/pull/32796,ekini,Fixes overriding modules which have depends_on attribute set,N
+2023-03-07T16:51:14Z,https://github.com/hashicorp/terraform/pull/32793,rkhaled0,bugfix(cliconfig.go): emit a warning msg if invalid CLI configuration file location,N
+2023-03-07T05:33:59Z,https://github.com/hashicorp/terraform/pull/32791,iKunal-Singh,Fix punctuation and spelling errors in Basic CLI Features and Command: plan documentation,N
+2023-03-07T01:18:04Z,https://github.com/hashicorp/terraform/pull/32788,teamterraform,Backport of website: Document TF_PLUGIN_CACHE_MAY_BREAK_DEPENDENCY_LOCK_FILE env var into v1.4,Y
+2023-03-06T15:12:38Z,https://github.com/hashicorp/terraform/pull/32783,teamterraform,Backport of 10x faster cloud tests into v1.4,Y
+2023-03-06T14:38:17Z,https://github.com/hashicorp/terraform/pull/32782,alisdair,10x faster cloud tests,Y
+2023-03-06T14:19:09Z,https://github.com/hashicorp/terraform/pull/32781,alisdair,initwd: Port from `earlyconfig` to `configs`,Y
+2023-03-04T03:15:50Z,https://github.com/hashicorp/terraform/pull/32776,alisdair,initwd: Switch from `earlyconfig` to `configs`,Y
+2023-03-03T13:41:49Z,https://github.com/hashicorp/terraform/pull/32775,liamcervante,Update HCL to handle type mismatches when applying defaults,Y
+2023-03-02T19:56:26Z,https://github.com/hashicorp/terraform/pull/32771,alanszlosek,add docs meta descriptions,Y
+2023-03-02T08:38:44Z,https://github.com/hashicorp/terraform/pull/32767,MichaelKueller,Add S3 permissions for backend bucket,N
+2023-03-01T22:41:23Z,https://github.com/hashicorp/terraform/pull/32766,wisnij,Update documentation for compact function,N
+2023-03-01T17:19:39Z,https://github.com/hashicorp/terraform/pull/32765,apparentlymart,website: Document TF_PLUGIN_CACHE_MAY_BREAK_DEPENDENCY_LOCK_FILE env var,Y
+2023-03-01T15:32:50Z,https://github.com/hashicorp/terraform/pull/32763,omarismail,Update upgrade guide 1.4,Y
+2023-03-01T09:52:59Z,https://github.com/hashicorp/terraform/pull/32759,kmoe,objchange: remove unused func,Y
+92,21,22.82%,,
+2023-02-28T20:18:16Z,https://github.com/hashicorp/terraform/pull/32756,omarismail,Update index.mdx,Y
+2023-02-27T15:03:27Z,https://github.com/hashicorp/terraform/pull/32749,teamterraform,Backport of bugfix: terraform providers mirror command should honor terraform lock file into v1.4,Y
+2023-02-24T22:54:15Z,https://github.com/hashicorp/terraform/pull/32742,rkhaled0,bugfix: terraform providers mirror command should honor terraform lock file,N
+2023-02-24T11:24:42Z,https://github.com/hashicorp/terraform/pull/32741,kmoe,Delete out-of-date doc,Y
+2023-02-22T20:24:13Z,https://github.com/hashicorp/terraform/pull/32737,teamterraform,Backport of cliconfig: Allow breaking the dependency lock file using the environment into v1.4,Y
+2023-02-22T13:47:06Z,https://github.com/hashicorp/terraform/pull/32735,liamcervante,Checks: Introduce check blocks into the terraform node and transform graph,Y
+2023-02-22T13:39:37Z,https://github.com/hashicorp/terraform/pull/32734,liamcervante,Checks: Add configuration for check blocks,Y
+2023-02-22T13:29:51Z,https://github.com/hashicorp/terraform/pull/32733,liamcervante,Checks: Refactor existing check addrs and add new check block addr,Y
+2023-02-22T13:24:54Z,https://github.com/hashicorp/terraform/pull/32732,liamcervante,Checks: Add support for scoped resources.,Y
+2023-02-22T01:18:16Z,https://github.com/hashicorp/terraform/pull/32729,teamterraform,Backport of Bug Fix where CLI exits if run is not confirmable. into v1.4,Y
+2023-02-22T00:09:26Z,https://github.com/hashicorp/terraform/pull/32728,teamterraform,Backport of keep errors friendly when init encounters syntax problems into v1.4,Y
+2023-02-21T23:41:09Z,https://github.com/hashicorp/terraform/pull/32727,teamterraform,Backport of Fix SRO authorization bug when token is fetched from cloud config into v1.4,Y
+2023-02-21T22:05:08Z,https://github.com/hashicorp/terraform/pull/32726,apparentlymart,cliconfig: Allow breaking the dependency lock file using the environment,Y
+2023-02-21T19:09:19Z,https://github.com/hashicorp/terraform/pull/32725,teamterraform,Backport of Remove docs bundle from build workflow into v1.4,Y
+2023-02-21T18:19:17Z,https://github.com/hashicorp/terraform/pull/32723,teamterraform,Backport of cliconfig: more err detail when provider_installation has invalid provider source into v1.4,Y
+2023-02-21T16:57:15Z,https://github.com/hashicorp/terraform/pull/32722,kmoe,cliconfig: more err detail when provider_installation has invalid provider source,Y
+2023-02-21T16:45:21Z,https://github.com/hashicorp/terraform/pull/32721,teamterraform,Backport of Handle provisioner log types when rendering structured logs into v1.4,Y
+2023-02-20T17:21:44Z,https://github.com/hashicorp/terraform/pull/32714,sathiyas,Update list.mdx,N
+2023-02-20T14:15:05Z,https://github.com/hashicorp/terraform/pull/32712,teamterraform,Backport of Add website docs for `metadata functions -json` command into v1.4,Y
+2023-02-20T14:11:55Z,https://github.com/hashicorp/terraform/pull/32711,teamterraform,Backport of Replace HTML entities in function descriptions into v1.4,Y
+2023-02-20T13:25:19Z,https://github.com/hashicorp/terraform/pull/32710,dbanck,Replace HTML entities in function descriptions,Y
+2023-02-20T06:34:24Z,https://github.com/hashicorp/terraform/pull/32708,mrinalirao,Bug Fix where CLI exits if run is not confirmable.,Y
+2023-02-18T04:18:37Z,https://github.com/hashicorp/terraform/pull/32705,radditude,Remove docs bundle from build workflow,Y
+2023-02-17T22:42:16Z,https://github.com/hashicorp/terraform/pull/32704,dependabot[bot],Bump golang.org/x/net from 0.5.0 to 0.7.0,Y
+2023-02-17T14:51:19Z,https://github.com/hashicorp/terraform/pull/32702,teamterraform,Backport of allow terraform_data to import into v1.4,Y
+2023-02-17T12:09:32Z,https://github.com/hashicorp/terraform/pull/32701,dbanck,Add website docs for `metadata functions -json` command,Y
+2023-02-17T12:04:58Z,https://github.com/hashicorp/terraform/pull/32700,teamterraform,Backport of Update go-getter version into v1.4,Y
+2023-02-17T00:32:04Z,https://github.com/hashicorp/terraform/pull/32699,dependabot[bot],Bump github.com/hashicorp/go-getter from 1.6.2 to 1.7.0,Y
+2023-02-16T23:06:34Z,https://github.com/hashicorp/terraform/pull/32698,brandonc,Set the cloud token in service discovery credentials when none exist for the cloud hostname,Y
+2023-02-16T18:27:27Z,https://github.com/hashicorp/terraform/pull/32697,amandabasara,Adding provider constraint best practice statement,Y
+2023-02-16T16:06:55Z,https://github.com/hashicorp/terraform/pull/32696,sebasslash,Handle provisioner log types when rendering structured logs,Y
+2023-02-16T05:29:15Z,https://github.com/hashicorp/terraform/pull/32695,radditude,keep errors friendly when init encounters syntax problems,Y
+2023-02-15T14:32:42Z,https://github.com/hashicorp/terraform/pull/32692,alisdair,Use Go 1.19.6,Y
+2023-02-15T14:31:29Z,https://github.com/hashicorp/terraform/pull/32691,alisdair,Use Go 1.19.6,Y
+2023-02-15T01:50:21Z,https://github.com/hashicorp/terraform/pull/32688,apparentlymart,build: Use Go 1.20.0,Y
+2023-02-14T20:12:25Z,https://github.com/hashicorp/terraform/pull/32687,teamterraform,Backport of initial terraform_data docs into v1.4,Y
+2023-02-14T14:50:45Z,https://github.com/hashicorp/terraform/pull/32683,jbardin,allow terraform_data to import,Y
+2023-02-14T14:09:33Z,https://github.com/hashicorp/terraform/pull/32681,teamterraform,Backport of Introduce `metadata functions` command into v1.4,Y
+2023-02-14T01:50:46Z,https://github.com/hashicorp/terraform/pull/32680,apparentlymart,backend/local: Periodically persist intermediate state snapshots,Y
+2023-02-13T22:43:16Z,https://github.com/hashicorp/terraform/pull/32679,jbardin,initial terraform_data docs,Y
+2023-02-13T18:18:44Z,https://github.com/hashicorp/terraform/pull/32678,jukie,Update go-getter version,N
+2023-02-13T17:26:32Z,https://github.com/hashicorp/terraform/pull/32677,teamterraform,Backport of sort modules.json for stable order into v1.4,Y
+2023-02-13T14:51:13Z,https://github.com/hashicorp/terraform/pull/32676,teamterraform,Backport of Do not add orphan nodes for deposed instances into v1.4,Y
+2023-02-13T14:51:08Z,https://github.com/hashicorp/terraform/pull/32675,teamterraform,Backport of Do not add orphan nodes for deposed instances into v1.3,Y
+2023-02-13T14:50:51Z,https://github.com/hashicorp/terraform/pull/32674,teamterraform,Backport of Fix panic when planning orphaned deposed instances into v1.4,Y
+2023-02-13T14:50:46Z,https://github.com/hashicorp/terraform/pull/32673,teamterraform,Backport of Fix panic when planning orphaned deposed instances into v1.3,Y
+2023-02-13T14:40:38Z,https://github.com/hashicorp/terraform/pull/32672,teamterraform,Backport of structured run output: impose canonical ordering on jsonstate and jsonplan packages into v1.4,Y
+2023-02-13T14:40:23Z,https://github.com/hashicorp/terraform/pull/32671,teamterraform,Backport of Use the latest equivalence testing version when executing equivalence tests into v1.4,Y
+2023-02-13T09:26:27Z,https://github.com/hashicorp/terraform/pull/32670,teamterraform,Backport of Support assume role for cos backend into v1.4,Y
+2023-02-10T22:35:58Z,https://github.com/hashicorp/terraform/pull/32667,teamterraform,Backport of Begin cloud remote state with serial > 0 into v1.4,Y
+2023-02-10T22:13:14Z,https://github.com/hashicorp/terraform/pull/32666,sebasslash,Fix SRO authorization bug when token is fetched from cloud config,Y
+2023-02-10T21:30:48Z,https://github.com/hashicorp/terraform/pull/32664,alisdair,Do not add orphan nodes for deposed instances,Y
+2023-02-10T20:40:40Z,https://github.com/hashicorp/terraform/pull/32663,alisdair,Fix panic when planning orphaned deposed instances,Y
+2023-02-10T08:38:25Z,https://github.com/hashicorp/terraform/pull/32659,liamcervante,Use the latest equivalence testing version when executing equivalence tests,Y
+2023-02-10T07:56:41Z,https://github.com/hashicorp/terraform/pull/32657,liamcervante,Manual backport of #32557 into v1.4,Y
+2023-02-09T08:26:59Z,https://github.com/hashicorp/terraform/pull/32649,liamcervante,structured run output: impose canonical ordering on jsonstate and jsonplan packages,Y
+2023-02-08T22:58:35Z,https://github.com/hashicorp/terraform/pull/32648,mikeantonelli,Update providers.mdx,N
+2023-02-08T22:19:59Z,https://github.com/hashicorp/terraform/pull/32647,brandonc,Begin cloud remote state with serial > 0,Y
+2023-02-08T15:29:08Z,https://github.com/hashicorp/terraform/pull/32643,jbardin,Manual v1.3 backport of 32614,Y
+2023-02-08T13:30:14Z,https://github.com/hashicorp/terraform/pull/32642,liamcervante,structured renderer: fix closing json bracket when rendering with no symbols,Y
+2023-02-06T15:07:29Z,https://github.com/hashicorp/terraform/pull/32631,lyu571,Support assume role for cos backend,Y
+2023-02-06T15:05:30Z,https://github.com/hashicorp/terraform/pull/32630,rkhaled0,do not print out the entire http req/resp if terraform debugging enabled and using azure remote backend,Y
+2023-02-06T14:20:11Z,https://github.com/hashicorp/terraform/pull/32629,liamcervante,Structured Renderer: use the new renderer when rendering the state in addition to the plan,Y
+2023-02-05T15:20:49Z,https://github.com/hashicorp/terraform/pull/32627,zachary-walters,Updated the deprecated ioutil dependency,N
+2023-02-03T14:46:57Z,https://github.com/hashicorp/terraform/pull/32624,ashleemboyer,docs: Migrate link formats,Y
+2023-02-02T12:40:24Z,https://github.com/hashicorp/terraform/pull/32618,yokomotod,sort modules.json for stable order,N
+2023-02-02T02:26:52Z,https://github.com/hashicorp/terraform/pull/32615,jnnnnn,mention -target in destroy docs,N
+2023-02-01T18:56:19Z,https://github.com/hashicorp/terraform/pull/32614,yardbirdsax,make remote state initial behavior the same as local state,N
+68,10,14.70%,,
