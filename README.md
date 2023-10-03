@@ -40,3 +40,8 @@ done
 
 I used this cool [online tool](https://seladb.github.io/StarTrack-js/#/) that also provides CSV
 
+## License
+
+All resources in this repository and the related article may be used freely, provided that the following two conditions are met:
+* Credit is given to the author.
+* An issue is opened on this project with a link to your resource.
